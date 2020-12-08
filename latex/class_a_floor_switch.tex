@@ -1,0 +1,369 @@
+\hypertarget{class_a_floor_switch}{}\doxysection{A\+Floor\+Switch Class Reference}
+\label{class_a_floor_switch}\index{AFloorSwitch@{AFloorSwitch}}
+
+
+{\ttfamily \#include $<$Floor\+Switch.\+h$>$}
+
+
+
+Inheritance diagram for A\+Floor\+Switch\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_a_floor_switch__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Floor\+Switch\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_a_floor_switch__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_floor_switch_afe65d443b9564f7733762711b900e677}{A\+Floor\+Switch}} ()
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a2cd506afc6758d7defbdd06184281c4f}{Close\+Door}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_floor_switch_a9f4740de66828a39ff41a746575a7176}{Tick}} (float Delta\+Time) override
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a51a9fc3cba0db71d390ea1544443e18f}{On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a301d69a405c96d63b5b7a5b6f4f3cad6}{On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a92c8880b848a4bcfe03f8de7d23bd976}{Raise\+Door}} ()
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a56c83270e3532b5dad80ad1e41f4f17c}{Lower\+Door}} ()
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a7db090515ff9f25c272818b5456aef48}{Raise\+Floor\+Switch}} ()
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a6e787d813256491db6e491535f6ed0ab}{Lower\+Floor\+Switch}} ()
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_a9ae82b5e6f88206e679964711fd0a2ef}{Update\+Door\+Location}} (float Z)
+\item 
+void \mbox{\hyperlink{class_a_floor_switch_ad395d89ba1ec98474f3ebe40dd22b798}{Update\+Floor\+Switch\+Location}} (float Z)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Box\+Component $\ast$ \mbox{\hyperlink{class_a_floor_switch_a3f96afa0930462d2cdcd18b880407685}{Trigger\+Box}}
+\item 
+class U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_floor_switch_aa2d1c16e414b33273691d333b1436ff3}{Floor\+Switch}}
+\item 
+U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_floor_switch_af7758e6f599474a2e239dc579c44c499}{Door}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_floor_switch_aba38514d859c875fad1a51484e88e245}{Initial\+Door\+Location}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_floor_switch_a2ef3949382eb4313e3eac7e14b1068eb}{Initial\+Switch\+Location}}
+\item 
+F\+Timer\+Handle \mbox{\hyperlink{class_a_floor_switch_aa6977fb624e2e0ac629d54fe5ccc151b}{Switch\+Handle}}
+\item 
+float \mbox{\hyperlink{class_a_floor_switch_ab0b0e7f91d128ebc9a2d21e6c0c4063f}{Switch\+Time}}
+\item 
+bool \mbox{\hyperlink{class_a_floor_switch_ab5312e8d33e35b4badaf77922907e90e}{b\+Character\+On\+Switch}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_floor_switch_a0114fe350c11bfdb929883be8b30fd51}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Floor\+Switch.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_floor_switch_afe65d443b9564f7733762711b900e677}\label{class_a_floor_switch_afe65d443b9564f7733762711b900e677}} 
+\index{AFloorSwitch@{AFloorSwitch}!AFloorSwitch@{AFloorSwitch}}
+\index{AFloorSwitch@{AFloorSwitch}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{AFloorSwitch()}{AFloorSwitch()}}
+{\footnotesize\ttfamily A\+Floor\+Switch\+::\+A\+Floor\+Switch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 11 of file Floor\+Switch.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_floor_switch_a0114fe350c11bfdb929883be8b30fd51}\label{class_a_floor_switch_a0114fe350c11bfdb929883be8b30fd51}} 
+\index{AFloorSwitch@{AFloorSwitch}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 37 of file Floor\+Switch.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a0114fe350c11bfdb929883be8b30fd51_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a2cd506afc6758d7defbdd06184281c4f}\label{class_a_floor_switch_a2cd506afc6758d7defbdd06184281c4f}} 
+\index{AFloorSwitch@{AFloorSwitch}!CloseDoor@{CloseDoor}}
+\index{CloseDoor@{CloseDoor}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{CloseDoor()}{CloseDoor()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Close\+Door (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 83 of file Floor\+Switch.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a2cd506afc6758d7defbdd06184281c4f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a2cd506afc6758d7defbdd06184281c4f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a56c83270e3532b5dad80ad1e41f4f17c}\label{class_a_floor_switch_a56c83270e3532b5dad80ad1e41f4f17c}} 
+\index{AFloorSwitch@{AFloorSwitch}!LowerDoor@{LowerDoor}}
+\index{LowerDoor@{LowerDoor}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{LowerDoor()}{LowerDoor()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Lower\+Door (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a56c83270e3532b5dad80ad1e41f4f17c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a6e787d813256491db6e491535f6ed0ab}\label{class_a_floor_switch_a6e787d813256491db6e491535f6ed0ab}} 
+\index{AFloorSwitch@{AFloorSwitch}!LowerFloorSwitch@{LowerFloorSwitch}}
+\index{LowerFloorSwitch@{LowerFloorSwitch}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{LowerFloorSwitch()}{LowerFloorSwitch()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Lower\+Floor\+Switch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a6e787d813256491db6e491535f6ed0ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a51a9fc3cba0db71d390ea1544443e18f}\label{class_a_floor_switch_a51a9fc3cba0db71d390ea1544443e18f}} 
+\index{AFloorSwitch@{AFloorSwitch}!OnOverlapBegin@{OnOverlapBegin}}
+\index{OnOverlapBegin@{OnOverlapBegin}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{OnOverlapBegin()}{OnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})}
+
+
+
+Definition at line 56 of file Floor\+Switch.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a51a9fc3cba0db71d390ea1544443e18f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a51a9fc3cba0db71d390ea1544443e18f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a301d69a405c96d63b5b7a5b6f4f3cad6}\label{class_a_floor_switch_a301d69a405c96d63b5b7a5b6f4f3cad6}} 
+\index{AFloorSwitch@{AFloorSwitch}!OnOverlapEnd@{OnOverlapEnd}}
+\index{OnOverlapEnd@{OnOverlapEnd}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{OnOverlapEnd()}{OnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 63 of file Floor\+Switch.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a301d69a405c96d63b5b7a5b6f4f3cad6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a301d69a405c96d63b5b7a5b6f4f3cad6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a92c8880b848a4bcfe03f8de7d23bd976}\label{class_a_floor_switch_a92c8880b848a4bcfe03f8de7d23bd976}} 
+\index{AFloorSwitch@{AFloorSwitch}!RaiseDoor@{RaiseDoor}}
+\index{RaiseDoor@{RaiseDoor}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{RaiseDoor()}{RaiseDoor()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Raise\+Door (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a92c8880b848a4bcfe03f8de7d23bd976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a7db090515ff9f25c272818b5456aef48}\label{class_a_floor_switch_a7db090515ff9f25c272818b5456aef48}} 
+\index{AFloorSwitch@{AFloorSwitch}!RaiseFloorSwitch@{RaiseFloorSwitch}}
+\index{RaiseFloorSwitch@{RaiseFloorSwitch}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{RaiseFloorSwitch()}{RaiseFloorSwitch()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Raise\+Floor\+Switch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_floor_switch_a7db090515ff9f25c272818b5456aef48_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floor_switch_a9f4740de66828a39ff41a746575a7176}\label{class_a_floor_switch_a9f4740de66828a39ff41a746575a7176}} 
+\index{AFloorSwitch@{AFloorSwitch}!Tick@{Tick}}
+\index{Tick@{Tick}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 50 of file Floor\+Switch.\+cpp.
+
+\mbox{\Hypertarget{class_a_floor_switch_a9ae82b5e6f88206e679964711fd0a2ef}\label{class_a_floor_switch_a9ae82b5e6f88206e679964711fd0a2ef}} 
+\index{AFloorSwitch@{AFloorSwitch}!UpdateDoorLocation@{UpdateDoorLocation}}
+\index{UpdateDoorLocation@{UpdateDoorLocation}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{UpdateDoorLocation()}{UpdateDoorLocation()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Update\+Door\+Location (\begin{DoxyParamCaption}\item[{float}]{Z }\end{DoxyParamCaption})}
+
+
+
+Definition at line 69 of file Floor\+Switch.\+cpp.
+
+\mbox{\Hypertarget{class_a_floor_switch_ad395d89ba1ec98474f3ebe40dd22b798}\label{class_a_floor_switch_ad395d89ba1ec98474f3ebe40dd22b798}} 
+\index{AFloorSwitch@{AFloorSwitch}!UpdateFloorSwitchLocation@{UpdateFloorSwitchLocation}}
+\index{UpdateFloorSwitchLocation@{UpdateFloorSwitchLocation}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{UpdateFloorSwitchLocation()}{UpdateFloorSwitchLocation()}}
+{\footnotesize\ttfamily void A\+Floor\+Switch\+::\+Update\+Floor\+Switch\+Location (\begin{DoxyParamCaption}\item[{float}]{Z }\end{DoxyParamCaption})}
+
+
+
+Definition at line 76 of file Floor\+Switch.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_floor_switch_ab5312e8d33e35b4badaf77922907e90e}\label{class_a_floor_switch_ab5312e8d33e35b4badaf77922907e90e}} 
+\index{AFloorSwitch@{AFloorSwitch}!bCharacterOnSwitch@{bCharacterOnSwitch}}
+\index{bCharacterOnSwitch@{bCharacterOnSwitch}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{bCharacterOnSwitch}{bCharacterOnSwitch}}
+{\footnotesize\ttfamily bool A\+Floor\+Switch\+::b\+Character\+On\+Switch}
+
+
+
+Definition at line 43 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_af7758e6f599474a2e239dc579c44c499}\label{class_a_floor_switch_af7758e6f599474a2e239dc579c44c499}} 
+\index{AFloorSwitch@{AFloorSwitch}!Door@{Door}}
+\index{Door@{Door}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{Door}{Door}}
+{\footnotesize\ttfamily U\+Static\+Mesh\+Component$\ast$ A\+Floor\+Switch\+::\+Door}
+
+Door to move when the floor switch is stepped on 
+
+Definition at line 28 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_aa2d1c16e414b33273691d333b1436ff3}\label{class_a_floor_switch_aa2d1c16e414b33273691d333b1436ff3}} 
+\index{AFloorSwitch@{AFloorSwitch}!FloorSwitch@{FloorSwitch}}
+\index{FloorSwitch@{FloorSwitch}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{FloorSwitch}{FloorSwitch}}
+{\footnotesize\ttfamily class U\+Static\+Mesh\+Component$\ast$ A\+Floor\+Switch\+::\+Floor\+Switch}
+
+Switch for the character to step on 
+
+Definition at line 24 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_aba38514d859c875fad1a51484e88e245}\label{class_a_floor_switch_aba38514d859c875fad1a51484e88e245}} 
+\index{AFloorSwitch@{AFloorSwitch}!InitialDoorLocation@{InitialDoorLocation}}
+\index{InitialDoorLocation@{InitialDoorLocation}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{InitialDoorLocation}{InitialDoorLocation}}
+{\footnotesize\ttfamily F\+Vector A\+Floor\+Switch\+::\+Initial\+Door\+Location}
+
+Initial location for the door 
+
+Definition at line 32 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_a2ef3949382eb4313e3eac7e14b1068eb}\label{class_a_floor_switch_a2ef3949382eb4313e3eac7e14b1068eb}} 
+\index{AFloorSwitch@{AFloorSwitch}!InitialSwitchLocation@{InitialSwitchLocation}}
+\index{InitialSwitchLocation@{InitialSwitchLocation}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{InitialSwitchLocation}{InitialSwitchLocation}}
+{\footnotesize\ttfamily F\+Vector A\+Floor\+Switch\+::\+Initial\+Switch\+Location}
+
+Initial location for the floor switch 
+
+Definition at line 36 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_aa6977fb624e2e0ac629d54fe5ccc151b}\label{class_a_floor_switch_aa6977fb624e2e0ac629d54fe5ccc151b}} 
+\index{AFloorSwitch@{AFloorSwitch}!SwitchHandle@{SwitchHandle}}
+\index{SwitchHandle@{SwitchHandle}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{SwitchHandle}{SwitchHandle}}
+{\footnotesize\ttfamily F\+Timer\+Handle A\+Floor\+Switch\+::\+Switch\+Handle}
+
+
+
+Definition at line 38 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_ab0b0e7f91d128ebc9a2d21e6c0c4063f}\label{class_a_floor_switch_ab0b0e7f91d128ebc9a2d21e6c0c4063f}} 
+\index{AFloorSwitch@{AFloorSwitch}!SwitchTime@{SwitchTime}}
+\index{SwitchTime@{SwitchTime}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{SwitchTime}{SwitchTime}}
+{\footnotesize\ttfamily float A\+Floor\+Switch\+::\+Switch\+Time}
+
+
+
+Definition at line 41 of file Floor\+Switch.\+h.
+
+\mbox{\Hypertarget{class_a_floor_switch_a3f96afa0930462d2cdcd18b880407685}\label{class_a_floor_switch_a3f96afa0930462d2cdcd18b880407685}} 
+\index{AFloorSwitch@{AFloorSwitch}!TriggerBox@{TriggerBox}}
+\index{TriggerBox@{TriggerBox}!AFloorSwitch@{AFloorSwitch}}
+\doxysubsubsection{\texorpdfstring{TriggerBox}{TriggerBox}}
+{\footnotesize\ttfamily class U\+Box\+Component$\ast$ A\+Floor\+Switch\+::\+Trigger\+Box}
+
+Overlap volume for functionality to be triggered 
+
+Definition at line 20 of file Floor\+Switch.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_floor_switch_8h}{Floor\+Switch.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_floor_switch_8cpp}{Floor\+Switch.\+cpp}}\end{DoxyCompactItemize}

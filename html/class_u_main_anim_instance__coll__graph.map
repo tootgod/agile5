@@ -1,0 +1,13 @@
+<map id="UMainAnimInstance" name="UMainAnimInstance">
+<area shape="rect" id="node1" title=" " alt="" coords="229,336,368,363"/>
+<area shape="rect" id="node2" title=" " alt="" coords="220,247,331,273"/>
+<area shape="rect" id="node3" href="$class_a_main.html" title=" " alt="" coords="356,247,414,273"/>
+<area shape="rect" id="node6" href="$class_a_enemy.html" title=" " alt="" coords="465,336,537,363"/>
+<area shape="rect" id="node4" title=" " alt="" coords="594,157,680,184"/>
+<area shape="rect" id="node5" href="$struct_f_character_stats.html" title=" " alt="" coords="156,157,273,184"/>
+<area shape="rect" id="node7" href="$class_a_item.html" title=" " alt="" coords="65,81,121,108"/>
+<area shape="rect" id="node11" href="$class_a_weapon.html" title=" " alt="" coords="298,157,376,184"/>
+<area shape="rect" id="node8" title=" " alt="" coords="62,5,124,32"/>
+<area shape="rect" id="node9" href="$class_a_main_player_controller.html" title=" " alt="" coords="400,157,551,184"/>
+<area shape="rect" id="node10" title=" " alt="" coords="414,81,537,108"/>
+</map>

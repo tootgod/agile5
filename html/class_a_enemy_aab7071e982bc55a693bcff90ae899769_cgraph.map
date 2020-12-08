@@ -1,0 +1,7 @@
+<map id="AEnemy::AttackEnd" name="AEnemy::AttackEnd">
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,147,69"/>
+<area shape="rect" id="node2" href="$class_a_enemy.html#ac718bcc29f94cf528ad5346fb7e3f6c0" title=" " alt="" coords="195,42,313,69"/>
+<area shape="rect" id="node3" href="$class_a_enemy.html#ac2be49e324e29beb948fb01f2fd13307" title=" " alt="" coords="408,13,515,39"/>
+<area shape="rect" id="node5" href="$class_a_enemy.html#ab41d3a9180602e336699ebf6ce28518c" title=" " alt="" coords="361,64,561,105"/>
+<area shape="rect" id="node4" href="$class_a_enemy.html#ab223a46de8e14a66da83cbdb0ccd56f5" title=" " alt="" coords="609,5,811,47"/>
+</map>

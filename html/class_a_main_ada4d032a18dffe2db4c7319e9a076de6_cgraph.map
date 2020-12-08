@@ -1,0 +1,26 @@
+<map id="AMain::SetupPlayerInputComponent" name="AMain::SetupPlayerInputComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,361,237,387"/>
+<area shape="rect" id="node2" href="$class_a_main.html#addc39baea875512a643be67c23f8f5ce" title=" " alt="" coords="297,57,424,83"/>
+<area shape="rect" id="node6" href="$class_a_main.html#ad37994f630564176ea720ed2f1f4ef15" title=" " alt="" coords="305,107,416,134"/>
+<area shape="rect" id="node7" href="$class_a_main.html#a908b00d2ef9e97ce8a4d2659bab40791" title=" " alt="" coords="311,158,410,185"/>
+<area shape="rect" id="node8" href="$class_a_main.html#a1b2eca96f55ccaa74fa5b4a0900f944c" title=" " alt="" coords="297,209,424,235"/>
+<area shape="rect" id="node15" href="$class_a_main.html#a68b76ea798dfad8c5930008f24604587" title=" " alt="" coords="305,259,416,286"/>
+<area shape="rect" id="node16" href="$class_a_main.html#ac6f93d25f888ca8f9eff47074655652c" title=" " alt="" coords="305,310,416,337"/>
+<area shape="rect" id="node18" href="$class_a_main.html#ae1e279332309820f9fa4125eda906a33" title=" " alt="" coords="285,361,436,387"/>
+<area shape="rect" id="node19" href="$class_a_main.html#abb1e2efbf3e57c9556b0a57249fa9062" title=" " alt="" coords="289,411,432,438"/>
+<area shape="rect" id="node20" href="$class_a_main.html#a409a6cdf2d17be679755163dc02a9212" title=" " alt="" coords="297,462,424,489"/>
+<area shape="rect" id="node21" href="$class_a_main.html#a07d7a5bbe063ac8e3813f1b12ec4ccd0" title=" " alt="" coords="287,513,435,539"/>
+<area shape="rect" id="node22" href="$class_a_main.html#afdbe6f099f13c5959dace63e8578d152" title=" " alt="" coords="295,563,427,590"/>
+<area shape="rect" id="node23" href="$class_a_main.html#a8f7f10452c938c6752694adf98b7b881" title=" " alt="" coords="315,614,407,641"/>
+<area shape="rect" id="node24" href="$class_a_main.html#ab39948311b3c70f49509d50db62aee67" title=" " alt="" coords="295,665,427,691"/>
+<area shape="rect" id="node3" href="$class_a_main_player_controller.html#adc6ad409d74bdc11a2962b9536fe4e68" title=" " alt="" coords="484,49,635,91"/>
+<area shape="rect" id="node4" href="$class_a_main_player_controller.html#a9d535c76d6a6f562e7fe30364fe05325" title=" " alt="" coords="715,5,865,47"/>
+<area shape="rect" id="node5" href="$class_a_main_player_controller.html#a5da1ca4a6441eb527d5e1a720feefc7d" title=" " alt="" coords="715,71,865,112"/>
+<area shape="rect" id="node9" href="$class_a_main.html#a731394b6338ee30f78b0adfcb4cf288f" title=" " alt="" coords="507,158,612,185"/>
+<area shape="rect" id="node11" href="$class_a_weapon.html#a81a33ce5a307e3b6ea5d8577c6d37887" title=" " alt="" coords="499,259,619,286"/>
+<area shape="rect" id="node12" href="$class_a_main.html#a9bfb51d80e90ea2a8c199859bd49f7d8" title=" " alt="" coords="683,209,897,235"/>
+<area shape="rect" id="node10" href="$class_a_main.html#a17e1c912781ae9acff78d4161ac57e6f" title=" " alt="" coords="703,158,877,185"/>
+<area shape="rect" id="node13" href="$class_a_main.html#a7297829b0f75582a86098bdde26c8dd0" title=" " alt="" coords="695,259,885,286"/>
+<area shape="rect" id="node14" href="$class_a_weapon.html#a8aaf92fef31840b61defc158aa3f0873" title=" " alt="" coords="710,310,870,337"/>
+<area shape="rect" id="node17" href="$class_a_main.html#ad43a686a11564dba3bfd77a773de5300" title=" " alt="" coords="496,437,623,463"/>
+</map>

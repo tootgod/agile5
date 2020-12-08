@@ -1,0 +1,6 @@
+<map id="AFloorSwitch::OnOverlapEnd" name="AFloorSwitch::OnOverlapEnd">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,196,61"/>
+<area shape="rect" id="node2" href="$class_a_floor_switch.html#a2cd506afc6758d7defbdd06184281c4f" title=" " alt="" coords="244,35,411,61"/>
+<area shape="rect" id="node3" href="$class_a_floor_switch.html#a56c83270e3532b5dad80ad1e41f4f17c" title=" " alt="" coords="459,5,627,32"/>
+<area shape="rect" id="node4" href="$class_a_floor_switch.html#a7db090515ff9f25c272818b5456aef48" title=" " alt="" coords="459,57,628,98"/>
+</map>

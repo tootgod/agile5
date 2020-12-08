@@ -1,0 +1,11 @@
+<map id="AMain" name="AMain">
+<area shape="rect" id="node1" title=" " alt="" coords="229,247,287,273"/>
+<area shape="rect" id="node4" href="$class_a_enemy.html" title=" " alt="" coords="106,336,178,363"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,157,92,184"/>
+<area shape="rect" id="node3" href="$struct_f_character_stats.html" title=" " alt="" coords="117,157,234,184"/>
+<area shape="rect" id="node5" href="$class_a_item.html" title=" " alt="" coords="314,81,370,108"/>
+<area shape="rect" id="node9" href="$class_a_weapon.html" title=" " alt="" coords="441,157,520,184"/>
+<area shape="rect" id="node6" title=" " alt="" coords="311,5,373,32"/>
+<area shape="rect" id="node7" href="$class_a_main_player_controller.html" title=" " alt="" coords="544,157,695,184"/>
+<area shape="rect" id="node8" title=" " alt="" coords="558,81,681,108"/>
+</map>

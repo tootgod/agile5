@@ -1,0 +1,6 @@
+<map id="AWeapon::Equip" name="AWeapon::Equip">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" id="node2" href="$class_a_main.html#a9bfb51d80e90ea2a8c199859bd49f7d8" title=" " alt="" coords="173,5,388,32"/>
+<area shape="rect" id="node3" href="$class_a_main.html#a7297829b0f75582a86098bdde26c8dd0" title=" " alt="" coords="186,56,375,83"/>
+<area shape="rect" id="node4" href="$class_a_weapon.html#a8aaf92fef31840b61defc158aa3f0873" title=" " alt="" coords="201,107,361,133"/>
+</map>

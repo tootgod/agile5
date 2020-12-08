@@ -1,0 +1,8 @@
+<map id="AMain::LoadGame" name="AMain::LoadGame">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,136,108"/>
+<area shape="rect" id="node2" href="$class_a_weapon.html#a81a33ce5a307e3b6ea5d8577c6d37887" title=" " alt="" coords="191,56,311,83"/>
+<area shape="rect" id="node6" href="$class_a_main.html#a57e8f9a38c155ff8942dc4b29b0d2a56" title=" " alt="" coords="184,107,319,133"/>
+<area shape="rect" id="node3" href="$class_a_main.html#a9bfb51d80e90ea2a8c199859bd49f7d8" title=" " alt="" coords="367,5,581,32"/>
+<area shape="rect" id="node4" href="$class_a_main.html#a7297829b0f75582a86098bdde26c8dd0" title=" " alt="" coords="379,56,569,83"/>
+<area shape="rect" id="node5" href="$class_a_weapon.html#a8aaf92fef31840b61defc158aa3f0873" title=" " alt="" coords="394,107,554,133"/>
+</map>

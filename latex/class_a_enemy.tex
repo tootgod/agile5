@@ -1,0 +1,787 @@
+\hypertarget{class_a_enemy}{}\doxysection{A\+Enemy Class Reference}
+\label{class_a_enemy}\index{AEnemy@{AEnemy}}
+
+
+{\ttfamily \#include $<$Enemy.\+h$>$}
+
+
+
+Inheritance diagram for A\+Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{class_a_enemy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_enemy_a78162cd7740ff2a86ba73ced9a4ae9be}{A\+Enemy}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_enemy_ab41d3a9180602e336699ebf6ce28518c}{Set\+Enemy\+Movement\+Status}} (\mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}} Status)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE \mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}} \mbox{\hyperlink{class_a_enemy_ab223a46de8e14a66da83cbdb0ccd56f5}{Get\+Enemy\+Movement\+Status}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_a7ad3c69fabaf9310f1966c81c8bbb720}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_afc9533c4630a49e85e749dc139a878dc}{Setup\+Player\+Input\+Component}} (class U\+Input\+Component $\ast$Player\+Input\+Component) override
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_a85315abde28ec72593914668d4b406c8}{Agro\+Sphere\+On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_a4a6a691e109da2d23a21676cf26586bf}{Agro\+Sphere\+On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_a43c4f84458a05f607ada9578d7ad94d8}{Combat\+Sphere\+On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_a458771461f33bface5463bad6680d54d}{Combat\+Sphere\+On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\item 
+void \mbox{\hyperlink{class_a_enemy_a99fc5a82ef5d682ae9b63c5eef623b85}{Move\+To\+Target}} (class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$Target)
+\item 
+void \mbox{\hyperlink{class_a_enemy_a5209c0aceb92ae69e957b1248f85ce5d}{Combat\+On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+void \mbox{\hyperlink{class_a_enemy_a2bde387b8596ab19871f0a3718eaa31b}{Combat\+On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\item 
+void \mbox{\hyperlink{class_a_enemy_ade51e115eced652d65a65e75f6ce78c3}{Activate\+Collision}} ()
+\item 
+void \mbox{\hyperlink{class_a_enemy_a6432879834144461522a6526a1ddeee2}{Deactivate\+Collision}} ()
+\item 
+void \mbox{\hyperlink{class_a_enemy_ac718bcc29f94cf528ad5346fb7e3f6c0}{Attack}} ()
+\item 
+void \mbox{\hyperlink{class_a_enemy_aab7071e982bc55a693bcff90ae899769}{Attack\+End}} ()
+\item 
+virtual float \mbox{\hyperlink{class_a_enemy_a08a7c6c84c5fc82e1aa0fc529c65918e}{Take\+Damage}} (float Damage\+Amount, struct F\+Damage\+Event const \&Damage\+Event, class A\+Controller $\ast$Event\+Instigator, A\+Actor $\ast$Damage\+Causer) override
+\item 
+void \mbox{\hyperlink{class_a_enemy_a2237917e9832fbb121de7ad991a18b9a}{Die}} (A\+Actor $\ast$Causer)
+\item 
+void \mbox{\hyperlink{class_a_enemy_abe406dbbe41dd0f77c33d873a2b713db}{Death\+End}} ()
+\item 
+bool \mbox{\hyperlink{class_a_enemy_ac2be49e324e29beb948fb01f2fd13307}{Alive}} ()
+\item 
+void \mbox{\hyperlink{class_a_enemy_a34114b445c60612bce777e55d5ef0891}{Disappear}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_a_enemy_a7e48c759614020122ef0566ff4a987d2}{b\+Has\+Valid\+Target}}
+\item 
+\mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}} \mbox{\hyperlink{class_a_enemy_a894ac986942b9e2156b59e29b5dee359}{Enemy\+Movement\+Status}}
+\item 
+class U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_enemy_aa89fcf94c00305e065a02e326063f0fa}{Agro\+Sphere}}
+\item 
+U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_enemy_a798439d5bf4722468600195d9bbb8e19}{Combat\+Sphere}}
+\item 
+class A\+A\+I\+Controller $\ast$ \mbox{\hyperlink{class_a_enemy_a135dffd0177046f56b13c425fb978cca}{A\+I\+Controller}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_ad96a416a1354968806fd021180e30739}{Health}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_a07f8691325f3d41c3c1fc84e68d51634}{Max\+Health}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_a1473a0de3e295431bb698e9253e94fdb}{Damage}}
+\item 
+class U\+Particle\+System $\ast$ \mbox{\hyperlink{class_a_enemy_ad6021943c1e78c9a7ca775e2817fcaba}{Hit\+Particles}}
+\item 
+class U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_enemy_a4a7e2e85748f07a62511dd4bbebe1275}{Hit\+Sound}}
+\item 
+U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_enemy_ac843d77f8b4c1fea80aff8ce67a5e76b}{Swing\+Sound}}
+\item 
+class U\+Box\+Component $\ast$ \mbox{\hyperlink{class_a_enemy_a3e297f79c615260802a5324b2d1a55b0}{Combat\+Collision}}
+\item 
+class U\+Anim\+Montage $\ast$ \mbox{\hyperlink{class_a_enemy_ad8af248b179642458882dfac1b9aa45d}{Combat\+Montage}}
+\item 
+F\+Timer\+Handle \mbox{\hyperlink{class_a_enemy_af70e957f4f215adda4b198ce186b154c}{Attack\+Timer}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_ab3a7f2a120d4ac0546ba780a37882a70}{Attack\+Min\+Time}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_a107488436bb3e20cbbc1c65f41d43414}{Attack\+Max\+Time}}
+\item 
+T\+Subclass\+Of$<$ U\+Damage\+Type $>$ \mbox{\hyperlink{class_a_enemy_a17b0e9e6e8f29a15b207640c7b89e440}{Damage\+Type\+Class}}
+\item 
+F\+Timer\+Handle \mbox{\hyperlink{class_a_enemy_ad59b5f37266ae7a7eccc5911c528894f}{Death\+Timer}}
+\item 
+float \mbox{\hyperlink{class_a_enemy_a4e2a3903999a234e692b92a37b65bf63}{Death\+Delay}}
+\item 
+bool \mbox{\hyperlink{class_a_enemy_a3a2e3b2fd135f20c961f40b64640e5f7}{b\+Overlapping\+Combat\+Sphere}}
+\item 
+\mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$ \mbox{\hyperlink{class_a_enemy_a84a5f91df144a8eb817a079bc369c44b}{Combat\+Target}}
+\item 
+bool \mbox{\hyperlink{class_a_enemy_ad83a2bf11092b66066d7a48687ea4d6b}{b\+Attacking}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_enemy_abd845c5787bc005ae01686635f7f3fba}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 21 of file Enemy.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_enemy_a78162cd7740ff2a86ba73ced9a4ae9be}\label{class_a_enemy_a78162cd7740ff2a86ba73ced9a4ae9be}} 
+\index{AEnemy@{AEnemy}!AEnemy@{AEnemy}}
+\index{AEnemy@{AEnemy}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AEnemy()}{AEnemy()}}
+{\footnotesize\ttfamily A\+Enemy\+::\+A\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 22 of file Enemy.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_enemy_ade51e115eced652d65a65e75f6ce78c3}\label{class_a_enemy_ade51e115eced652d65a65e75f6ce78c3}} 
+\index{AEnemy@{AEnemy}!ActivateCollision@{ActivateCollision}}
+\index{ActivateCollision@{ActivateCollision}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{ActivateCollision()}{ActivateCollision()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Activate\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 248 of file Enemy.\+cpp.
+
+\mbox{\Hypertarget{class_a_enemy_a85315abde28ec72593914668d4b406c8}\label{class_a_enemy_a85315abde28ec72593914668d4b406c8}} 
+\index{AEnemy@{AEnemy}!AgroSphereOnOverlapBegin@{AgroSphereOnOverlapBegin}}
+\index{AgroSphereOnOverlapBegin@{AgroSphereOnOverlapBegin}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AgroSphereOnOverlapBegin()}{AgroSphereOnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Agro\+Sphere\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 95 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a85315abde28ec72593914668d4b406c8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a85315abde28ec72593914668d4b406c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a4a6a691e109da2d23a21676cf26586bf}\label{class_a_enemy_a4a6a691e109da2d23a21676cf26586bf}} 
+\index{AEnemy@{AEnemy}!AgroSphereOnOverlapEnd@{AgroSphereOnOverlapEnd}}
+\index{AgroSphereOnOverlapEnd@{AgroSphereOnOverlapEnd}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AgroSphereOnOverlapEnd()}{AgroSphereOnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Agro\+Sphere\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 107 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a4a6a691e109da2d23a21676cf26586bf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a4a6a691e109da2d23a21676cf26586bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_ac2be49e324e29beb948fb01f2fd13307}\label{class_a_enemy_ac2be49e324e29beb948fb01f2fd13307}} 
+\index{AEnemy@{AEnemy}!Alive@{Alive}}
+\index{Alive@{Alive}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Alive()}{Alive()}}
+{\footnotesize\ttfamily bool A\+Enemy\+::\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 342 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_a_enemy_ac2be49e324e29beb948fb01f2fd13307_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_ac2be49e324e29beb948fb01f2fd13307_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_ac718bcc29f94cf528ad5346fb7e3f6c0}\label{class_a_enemy_ac718bcc29f94cf528ad5346fb7e3f6c0}} 
+\index{AEnemy@{AEnemy}!Attack@{Attack}}
+\index{Attack@{Attack}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Attack()}{Attack()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 263 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_ac718bcc29f94cf528ad5346fb7e3f6c0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_ac718bcc29f94cf528ad5346fb7e3f6c0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_aab7071e982bc55a693bcff90ae899769}\label{class_a_enemy_aab7071e982bc55a693bcff90ae899769}} 
+\index{AEnemy@{AEnemy}!AttackEnd@{AttackEnd}}
+\index{AttackEnd@{AttackEnd}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AttackEnd()}{AttackEnd()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Attack\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 285 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_aab7071e982bc55a693bcff90ae899769_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_abd845c5787bc005ae01686635f7f3fba}\label{class_a_enemy_abd845c5787bc005ae01686635f7f3fba}} 
+\index{AEnemy@{AEnemy}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 57 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_abd845c5787bc005ae01686635f7f3fba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a5209c0aceb92ae69e957b1248f85ce5d}\label{class_a_enemy_a5209c0aceb92ae69e957b1248f85ce5d}} 
+\index{AEnemy@{AEnemy}!CombatOnOverlapBegin@{CombatOnOverlapBegin}}
+\index{CombatOnOverlapBegin@{CombatOnOverlapBegin}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatOnOverlapBegin()}{CombatOnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Combat\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})}
+
+
+
+Definition at line 215 of file Enemy.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a5209c0aceb92ae69e957b1248f85ce5d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a2bde387b8596ab19871f0a3718eaa31b}\label{class_a_enemy_a2bde387b8596ab19871f0a3718eaa31b}} 
+\index{AEnemy@{AEnemy}!CombatOnOverlapEnd@{CombatOnOverlapEnd}}
+\index{CombatOnOverlapEnd@{CombatOnOverlapEnd}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatOnOverlapEnd()}{CombatOnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Combat\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 244 of file Enemy.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a2bde387b8596ab19871f0a3718eaa31b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a43c4f84458a05f607ada9578d7ad94d8}\label{class_a_enemy_a43c4f84458a05f607ada9578d7ad94d8}} 
+\index{AEnemy@{AEnemy}!CombatSphereOnOverlapBegin@{CombatSphereOnOverlapBegin}}
+\index{CombatSphereOnOverlapBegin@{CombatSphereOnOverlapBegin}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatSphereOnOverlapBegin()}{CombatSphereOnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Combat\+Sphere\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 134 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a43c4f84458a05f607ada9578d7ad94d8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a43c4f84458a05f607ada9578d7ad94d8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a458771461f33bface5463bad6680d54d}\label{class_a_enemy_a458771461f33bface5463bad6680d54d}} 
+\index{AEnemy@{AEnemy}!CombatSphereOnOverlapEnd@{CombatSphereOnOverlapEnd}}
+\index{CombatSphereOnOverlapEnd@{CombatSphereOnOverlapEnd}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatSphereOnOverlapEnd()}{CombatSphereOnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Combat\+Sphere\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 159 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a458771461f33bface5463bad6680d54d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a458771461f33bface5463bad6680d54d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a6432879834144461522a6526a1ddeee2}\label{class_a_enemy_a6432879834144461522a6526a1ddeee2}} 
+\index{AEnemy@{AEnemy}!DeactivateCollision@{DeactivateCollision}}
+\index{DeactivateCollision@{DeactivateCollision}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{DeactivateCollision()}{DeactivateCollision()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Deactivate\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 258 of file Enemy.\+cpp.
+
+\mbox{\Hypertarget{class_a_enemy_abe406dbbe41dd0f77c33d873a2b713db}\label{class_a_enemy_abe406dbbe41dd0f77c33d873a2b713db}} 
+\index{AEnemy@{AEnemy}!DeathEnd@{DeathEnd}}
+\index{DeathEnd@{DeathEnd}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{DeathEnd()}{DeathEnd()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Death\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 334 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{class_a_enemy_abe406dbbe41dd0f77c33d873a2b713db_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a2237917e9832fbb121de7ad991a18b9a}\label{class_a_enemy_a2237917e9832fbb121de7ad991a18b9a}} 
+\index{AEnemy@{AEnemy}!Die@{Die}}
+\index{Die@{Die}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Die()}{Die()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Die (\begin{DoxyParamCaption}\item[{A\+Actor $\ast$}]{Causer }\end{DoxyParamCaption})}
+
+
+
+Definition at line 310 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a2237917e9832fbb121de7ad991a18b9a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{class_a_enemy_a2237917e9832fbb121de7ad991a18b9a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a34114b445c60612bce777e55d5ef0891}\label{class_a_enemy_a34114b445c60612bce777e55d5ef0891}} 
+\index{AEnemy@{AEnemy}!Disappear@{Disappear}}
+\index{Disappear@{Disappear}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Disappear()}{Disappear()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Disappear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 347 of file Enemy.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{class_a_enemy_a34114b445c60612bce777e55d5ef0891_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_ab223a46de8e14a66da83cbdb0ccd56f5}\label{class_a_enemy_ab223a46de8e14a66da83cbdb0ccd56f5}} 
+\index{AEnemy@{AEnemy}!GetEnemyMovementStatus@{GetEnemyMovementStatus}}
+\index{GetEnemyMovementStatus@{GetEnemyMovementStatus}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{GetEnemyMovementStatus()}{GetEnemyMovementStatus()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE \mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}} A\+Enemy\+::\+Get\+Enemy\+Movement\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 35 of file Enemy.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_ab223a46de8e14a66da83cbdb0ccd56f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a99fc5a82ef5d682ae9b63c5eef623b85}\label{class_a_enemy_a99fc5a82ef5d682ae9b63c5eef623b85}} 
+\index{AEnemy@{AEnemy}!MoveToTarget@{MoveToTarget}}
+\index{MoveToTarget@{MoveToTarget}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{MoveToTarget()}{MoveToTarget()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Move\+To\+Target (\begin{DoxyParamCaption}\item[{class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$}]{Target }\end{DoxyParamCaption})}
+
+auto Path\+Points = Nav\+Path-\/$>$Get\+Path\+Points(); for (auto Point \+: Path\+Points) \{ F\+Vector Location = Point.\+Location;
+
+U\+Kismet\+System\+Library\+::\+Draw\+Debug\+Sphere(this, Location, 25.\+f, 8, F\+Linear\+Color\+::\+Red, 10.\+f, 1.\+5f); \}
+
+Definition at line 189 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a99fc5a82ef5d682ae9b63c5eef623b85_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a99fc5a82ef5d682ae9b63c5eef623b85_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_ab41d3a9180602e336699ebf6ce28518c}\label{class_a_enemy_ab41d3a9180602e336699ebf6ce28518c}} 
+\index{AEnemy@{AEnemy}!SetEnemyMovementStatus@{SetEnemyMovementStatus}}
+\index{SetEnemyMovementStatus@{SetEnemyMovementStatus}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{SetEnemyMovementStatus()}{SetEnemyMovementStatus()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Enemy\+::\+Set\+Enemy\+Movement\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}}}]{Status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 34 of file Enemy.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_ab41d3a9180602e336699ebf6ce28518c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_afc9533c4630a49e85e749dc139a878dc}\label{class_a_enemy_afc9533c4630a49e85e749dc139a878dc}} 
+\index{AEnemy@{AEnemy}!SetupPlayerInputComponent@{SetupPlayerInputComponent}}
+\index{SetupPlayerInputComponent@{SetupPlayerInputComponent}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{SetupPlayerInputComponent()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class U\+Input\+Component $\ast$}]{Player\+Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 89 of file Enemy.\+cpp.
+
+\mbox{\Hypertarget{class_a_enemy_a08a7c6c84c5fc82e1aa0fc529c65918e}\label{class_a_enemy_a08a7c6c84c5fc82e1aa0fc529c65918e}} 
+\index{AEnemy@{AEnemy}!TakeDamage@{TakeDamage}}
+\index{TakeDamage@{TakeDamage}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{TakeDamage()}{TakeDamage()}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Take\+Damage (\begin{DoxyParamCaption}\item[{float}]{Damage\+Amount,  }\item[{struct F\+Damage\+Event const \&}]{Damage\+Event,  }\item[{class A\+Controller $\ast$}]{Event\+Instigator,  }\item[{A\+Actor $\ast$}]{Damage\+Causer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 295 of file Enemy.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_enemy_a08a7c6c84c5fc82e1aa0fc529c65918e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_enemy_a7ad3c69fabaf9310f1966c81c8bbb720}\label{class_a_enemy_a7ad3c69fabaf9310f1966c81c8bbb720}} 
+\index{AEnemy@{AEnemy}!Tick@{Tick}}
+\index{Tick@{Tick}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Enemy\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 82 of file Enemy.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_enemy_aa89fcf94c00305e065a02e326063f0fa}\label{class_a_enemy_aa89fcf94c00305e065a02e326063f0fa}} 
+\index{AEnemy@{AEnemy}!AgroSphere@{AgroSphere}}
+\index{AgroSphere@{AgroSphere}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AgroSphere}{AgroSphere}}
+{\footnotesize\ttfamily class U\+Sphere\+Component$\ast$ A\+Enemy\+::\+Agro\+Sphere}
+
+
+
+Definition at line 39 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a135dffd0177046f56b13c425fb978cca}\label{class_a_enemy_a135dffd0177046f56b13c425fb978cca}} 
+\index{AEnemy@{AEnemy}!AIController@{AIController}}
+\index{AIController@{AIController}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AIController}{AIController}}
+{\footnotesize\ttfamily class A\+A\+I\+Controller$\ast$ A\+Enemy\+::\+A\+I\+Controller}
+
+
+
+Definition at line 45 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a107488436bb3e20cbbc1c65f41d43414}\label{class_a_enemy_a107488436bb3e20cbbc1c65f41d43414}} 
+\index{AEnemy@{AEnemy}!AttackMaxTime@{AttackMaxTime}}
+\index{AttackMaxTime@{AttackMaxTime}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AttackMaxTime}{AttackMaxTime}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Attack\+Max\+Time}
+
+
+
+Definition at line 77 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ab3a7f2a120d4ac0546ba780a37882a70}\label{class_a_enemy_ab3a7f2a120d4ac0546ba780a37882a70}} 
+\index{AEnemy@{AEnemy}!AttackMinTime@{AttackMinTime}}
+\index{AttackMinTime@{AttackMinTime}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AttackMinTime}{AttackMinTime}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Attack\+Min\+Time}
+
+
+
+Definition at line 74 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_af70e957f4f215adda4b198ce186b154c}\label{class_a_enemy_af70e957f4f215adda4b198ce186b154c}} 
+\index{AEnemy@{AEnemy}!AttackTimer@{AttackTimer}}
+\index{AttackTimer@{AttackTimer}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{AttackTimer}{AttackTimer}}
+{\footnotesize\ttfamily F\+Timer\+Handle A\+Enemy\+::\+Attack\+Timer}
+
+
+
+Definition at line 71 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ad83a2bf11092b66066d7a48687ea4d6b}\label{class_a_enemy_ad83a2bf11092b66066d7a48687ea4d6b}} 
+\index{AEnemy@{AEnemy}!bAttacking@{bAttacking}}
+\index{bAttacking@{bAttacking}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{bAttacking}{bAttacking}}
+{\footnotesize\ttfamily bool A\+Enemy\+::b\+Attacking}
+
+
+
+Definition at line 130 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a7e48c759614020122ef0566ff4a987d2}\label{class_a_enemy_a7e48c759614020122ef0566ff4a987d2}} 
+\index{AEnemy@{AEnemy}!bHasValidTarget@{bHasValidTarget}}
+\index{bHasValidTarget@{bHasValidTarget}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{bHasValidTarget}{bHasValidTarget}}
+{\footnotesize\ttfamily bool A\+Enemy\+::b\+Has\+Valid\+Target}
+
+
+
+Definition at line 29 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a3a2e3b2fd135f20c961f40b64640e5f7}\label{class_a_enemy_a3a2e3b2fd135f20c961f40b64640e5f7}} 
+\index{AEnemy@{AEnemy}!bOverlappingCombatSphere@{bOverlappingCombatSphere}}
+\index{bOverlappingCombatSphere@{bOverlappingCombatSphere}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{bOverlappingCombatSphere}{bOverlappingCombatSphere}}
+{\footnotesize\ttfamily bool A\+Enemy\+::b\+Overlapping\+Combat\+Sphere}
+
+
+
+Definition at line 112 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a3e297f79c615260802a5324b2d1a55b0}\label{class_a_enemy_a3e297f79c615260802a5324b2d1a55b0}} 
+\index{AEnemy@{AEnemy}!CombatCollision@{CombatCollision}}
+\index{CombatCollision@{CombatCollision}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatCollision}{CombatCollision}}
+{\footnotesize\ttfamily class U\+Box\+Component$\ast$ A\+Enemy\+::\+Combat\+Collision}
+
+
+
+Definition at line 66 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ad8af248b179642458882dfac1b9aa45d}\label{class_a_enemy_ad8af248b179642458882dfac1b9aa45d}} 
+\index{AEnemy@{AEnemy}!CombatMontage@{CombatMontage}}
+\index{CombatMontage@{CombatMontage}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatMontage}{CombatMontage}}
+{\footnotesize\ttfamily class U\+Anim\+Montage$\ast$ A\+Enemy\+::\+Combat\+Montage}
+
+
+
+Definition at line 69 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a798439d5bf4722468600195d9bbb8e19}\label{class_a_enemy_a798439d5bf4722468600195d9bbb8e19}} 
+\index{AEnemy@{AEnemy}!CombatSphere@{CombatSphere}}
+\index{CombatSphere@{CombatSphere}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatSphere}{CombatSphere}}
+{\footnotesize\ttfamily U\+Sphere\+Component$\ast$ A\+Enemy\+::\+Combat\+Sphere}
+
+
+
+Definition at line 42 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a84a5f91df144a8eb817a079bc369c44b}\label{class_a_enemy_a84a5f91df144a8eb817a079bc369c44b}} 
+\index{AEnemy@{AEnemy}!CombatTarget@{CombatTarget}}
+\index{CombatTarget@{CombatTarget}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{CombatTarget}{CombatTarget}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_main}{A\+Main}}$\ast$ A\+Enemy\+::\+Combat\+Target}
+
+
+
+Definition at line 115 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a1473a0de3e295431bb698e9253e94fdb}\label{class_a_enemy_a1473a0de3e295431bb698e9253e94fdb}} 
+\index{AEnemy@{AEnemy}!Damage@{Damage}}
+\index{Damage@{Damage}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Damage}{Damage}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Damage}
+
+
+
+Definition at line 54 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a17b0e9e6e8f29a15b207640c7b89e440}\label{class_a_enemy_a17b0e9e6e8f29a15b207640c7b89e440}} 
+\index{AEnemy@{AEnemy}!DamageTypeClass@{DamageTypeClass}}
+\index{DamageTypeClass@{DamageTypeClass}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{DamageTypeClass}{DamageTypeClass}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$U\+Damage\+Type$>$ A\+Enemy\+::\+Damage\+Type\+Class}
+
+
+
+Definition at line 80 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a4e2a3903999a234e692b92a37b65bf63}\label{class_a_enemy_a4e2a3903999a234e692b92a37b65bf63}} 
+\index{AEnemy@{AEnemy}!DeathDelay@{DeathDelay}}
+\index{DeathDelay@{DeathDelay}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{DeathDelay}{DeathDelay}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Death\+Delay}
+
+
+
+Definition at line 85 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ad59b5f37266ae7a7eccc5911c528894f}\label{class_a_enemy_ad59b5f37266ae7a7eccc5911c528894f}} 
+\index{AEnemy@{AEnemy}!DeathTimer@{DeathTimer}}
+\index{DeathTimer@{DeathTimer}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{DeathTimer}{DeathTimer}}
+{\footnotesize\ttfamily F\+Timer\+Handle A\+Enemy\+::\+Death\+Timer}
+
+
+
+Definition at line 82 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a894ac986942b9e2156b59e29b5dee359}\label{class_a_enemy_a894ac986942b9e2156b59e29b5dee359}} 
+\index{AEnemy@{AEnemy}!EnemyMovementStatus@{EnemyMovementStatus}}
+\index{EnemyMovementStatus@{EnemyMovementStatus}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{EnemyMovementStatus}{EnemyMovementStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_enemy_8h_a585949b9a395abf2f93671995a0e7ac8}{E\+Enemy\+Movement\+Status}} A\+Enemy\+::\+Enemy\+Movement\+Status}
+
+
+
+Definition at line 32 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ad96a416a1354968806fd021180e30739}\label{class_a_enemy_ad96a416a1354968806fd021180e30739}} 
+\index{AEnemy@{AEnemy}!Health@{Health}}
+\index{Health@{Health}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{Health}{Health}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Health}
+
+
+
+Definition at line 48 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ad6021943c1e78c9a7ca775e2817fcaba}\label{class_a_enemy_ad6021943c1e78c9a7ca775e2817fcaba}} 
+\index{AEnemy@{AEnemy}!HitParticles@{HitParticles}}
+\index{HitParticles@{HitParticles}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{HitParticles}{HitParticles}}
+{\footnotesize\ttfamily class U\+Particle\+System$\ast$ A\+Enemy\+::\+Hit\+Particles}
+
+
+
+Definition at line 57 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a4a7e2e85748f07a62511dd4bbebe1275}\label{class_a_enemy_a4a7e2e85748f07a62511dd4bbebe1275}} 
+\index{AEnemy@{AEnemy}!HitSound@{HitSound}}
+\index{HitSound@{HitSound}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{HitSound}{HitSound}}
+{\footnotesize\ttfamily class U\+Sound\+Cue$\ast$ A\+Enemy\+::\+Hit\+Sound}
+
+
+
+Definition at line 60 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_a07f8691325f3d41c3c1fc84e68d51634}\label{class_a_enemy_a07f8691325f3d41c3c1fc84e68d51634}} 
+\index{AEnemy@{AEnemy}!MaxHealth@{MaxHealth}}
+\index{MaxHealth@{MaxHealth}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{MaxHealth}{MaxHealth}}
+{\footnotesize\ttfamily float A\+Enemy\+::\+Max\+Health}
+
+
+
+Definition at line 51 of file Enemy.\+h.
+
+\mbox{\Hypertarget{class_a_enemy_ac843d77f8b4c1fea80aff8ce67a5e76b}\label{class_a_enemy_ac843d77f8b4c1fea80aff8ce67a5e76b}} 
+\index{AEnemy@{AEnemy}!SwingSound@{SwingSound}}
+\index{SwingSound@{SwingSound}!AEnemy@{AEnemy}}
+\doxysubsubsection{\texorpdfstring{SwingSound}{SwingSound}}
+{\footnotesize\ttfamily U\+Sound\+Cue$\ast$ A\+Enemy\+::\+Swing\+Sound}
+
+
+
+Definition at line 63 of file Enemy.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_enemy_8h}{Enemy.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_enemy_8cpp}{Enemy.\+cpp}}\end{DoxyCompactItemize}

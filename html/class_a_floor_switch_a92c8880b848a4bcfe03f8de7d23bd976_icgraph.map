@@ -1,0 +1,5 @@
+<map id="AFloorSwitch::RaiseDoor" name="AFloorSwitch::RaiseDoor">
+<area shape="rect" id="node1" title=" " alt="" coords="468,5,635,32"/>
+<area shape="rect" id="node2" href="$class_a_floor_switch.html#a51a9fc3cba0db71d390ea1544443e18f" title=" " alt="" coords="220,5,420,32"/>
+<area shape="rect" id="node3" href="$class_a_floor_switch.html#a0114fe350c11bfdb929883be8b30fd51" title=" " alt="" coords="5,5,172,32"/>
+</map>

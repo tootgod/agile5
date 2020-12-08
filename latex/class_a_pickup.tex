@@ -1,0 +1,117 @@
+\hypertarget{class_a_pickup}{}\doxysection{A\+Pickup Class Reference}
+\label{class_a_pickup}\index{APickup@{APickup}}
+
+
+{\ttfamily \#include $<$Pickup.\+h$>$}
+
+
+
+Inheritance diagram for A\+Pickup\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_a_pickup__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Pickup\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_a_pickup__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_pickup_ae49b335c7a1d179e11aff91c30f67f5b}{A\+Pickup}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_pickup_a4ed2f6b6b854f6f238b06b8ab294d22c}{On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result) override
+\item 
+virtual void \mbox{\hyperlink{class_a_pickup_acf16c05200e43450b93b2fab3ee668ae}{On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index) override
+\item 
+void \mbox{\hyperlink{class_a_pickup_aa1f800b18deb33efbcc642b7d3111164}{On\+Pickup\+BP}} (class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$Target)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Pickup.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_pickup_ae49b335c7a1d179e11aff91c30f67f5b}\label{class_a_pickup_ae49b335c7a1d179e11aff91c30f67f5b}} 
+\index{APickup@{APickup}!APickup@{APickup}}
+\index{APickup@{APickup}!APickup@{APickup}}
+\doxysubsubsection{\texorpdfstring{APickup()}{APickup()}}
+{\footnotesize\ttfamily A\+Pickup\+::\+A\+Pickup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file Pickup.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_pickup_a4ed2f6b6b854f6f238b06b8ab294d22c}\label{class_a_pickup_a4ed2f6b6b854f6f238b06b8ab294d22c}} 
+\index{APickup@{APickup}!OnOverlapBegin@{OnOverlapBegin}}
+\index{OnOverlapBegin@{OnOverlapBegin}!APickup@{APickup}}
+\doxysubsubsection{\texorpdfstring{OnOverlapBegin()}{OnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Pickup\+::\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e}{A\+Item}}.
+
+
+
+Definition at line 14 of file Pickup.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_pickup_a4ed2f6b6b854f6f238b06b8ab294d22c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_pickup_acf16c05200e43450b93b2fab3ee668ae}\label{class_a_pickup_acf16c05200e43450b93b2fab3ee668ae}} 
+\index{APickup@{APickup}!OnOverlapEnd@{OnOverlapEnd}}
+\index{OnOverlapEnd@{OnOverlapEnd}!APickup@{APickup}}
+\doxysubsubsection{\texorpdfstring{OnOverlapEnd()}{OnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Pickup\+::\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_item_aee761c5bf5e3d886a232608d08930c6d}{A\+Item}}.
+
+
+
+Definition at line 40 of file Pickup.\+cpp.
+
+\mbox{\Hypertarget{class_a_pickup_aa1f800b18deb33efbcc642b7d3111164}\label{class_a_pickup_aa1f800b18deb33efbcc642b7d3111164}} 
+\index{APickup@{APickup}!OnPickupBP@{OnPickupBP}}
+\index{OnPickupBP@{OnPickupBP}!APickup@{APickup}}
+\doxysubsubsection{\texorpdfstring{OnPickupBP()}{OnPickupBP()}}
+{\footnotesize\ttfamily void A\+Pickup\+::\+On\+Pickup\+BP (\begin{DoxyParamCaption}\item[{class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$}]{Target }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_pickup_aa1f800b18deb33efbcc642b7d3111164_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_pickup_8h}{Pickup.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_pickup_8cpp}{Pickup.\+cpp}}\end{DoxyCompactItemize}

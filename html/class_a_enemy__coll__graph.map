@@ -1,0 +1,11 @@
+<map id="AEnemy" name="AEnemy">
+<area shape="rect" id="node1" title=" " alt="" coords="70,157,142,184"/>
+<area shape="rect" id="node3" href="$class_a_main.html" title=" " alt="" coords="256,247,315,273"/>
+<area shape="rect" id="node2" title=" " alt="" coords="116,81,202,108"/>
+<area shape="rect" id="node4" href="$struct_f_character_stats.html" title=" " alt="" coords="232,157,350,184"/>
+<area shape="rect" id="node5" href="$class_a_item.html" title=" " alt="" coords="427,81,483,108"/>
+<area shape="rect" id="node9" href="$class_a_weapon.html" title=" " alt="" coords="554,157,633,184"/>
+<area shape="rect" id="node6" title=" " alt="" coords="424,5,486,32"/>
+<area shape="rect" id="node7" href="$class_a_main_player_controller.html" title=" " alt="" coords="657,157,808,184"/>
+<area shape="rect" id="node8" title=" " alt="" coords="671,81,794,108"/>
+</map>

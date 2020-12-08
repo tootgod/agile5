@@ -1,0 +1,5 @@
+<map id="AFloorSwitch::CloseDoor" name="AFloorSwitch::CloseDoor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,172,61"/>
+<area shape="rect" id="node2" href="$class_a_floor_switch.html#a56c83270e3532b5dad80ad1e41f4f17c" title=" " alt="" coords="221,5,389,32"/>
+<area shape="rect" id="node3" href="$class_a_floor_switch.html#a7db090515ff9f25c272818b5456aef48" title=" " alt="" coords="220,57,389,98"/>
+</map>

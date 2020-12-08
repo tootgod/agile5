@@ -1,0 +1,5 @@
+<map id="APickup" name="APickup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node2" href="$class_a_item.html" title=" " alt="" coords="13,80,69,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="9,5,72,32"/>
+</map>

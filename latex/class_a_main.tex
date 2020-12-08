@@ -1,0 +1,1407 @@
+\hypertarget{class_a_main}{}\doxysection{A\+Main Class Reference}
+\label{class_a_main}\index{AMain@{AMain}}
+
+
+{\ttfamily \#include $<$Main.\+h$>$}
+
+
+
+Inheritance diagram for A\+Main\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{class_a_main__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Main\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_main_a10079fd85c05ccb4ed3cbdefc4068adf}{A\+Main}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_main_a72ee0bb3bf51257605398416b24785b0}{Set\+Has\+Combat\+Target}} (bool Has\+Target)
+\item 
+void \mbox{\hyperlink{class_a_main_a7e6fd9b2ba4d7def1b86f44f3b5e8705}{Show\+Pickup\+Locations}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_main_a4d4556c2510e75698a02efc952079032}{Set\+Stamina\+Status}} (\mbox{\hyperlink{_main_8h_a19e574da0bfc67b04aa308d2dbf2e96a}{E\+Stamina\+Status}} Status)
+\item 
+void \mbox{\hyperlink{class_a_main_a17e1c912781ae9acff78d4161ac57e6f}{Set\+Interp\+To\+Enemy}} (bool Interp)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_main_a3786cff0a9f533d5083334bc743bc1f5}{Set\+Combat\+Target}} (\mbox{\hyperlink{class_a_enemy}{A\+Enemy}} $\ast$Target)
+\item 
+F\+Rotator \mbox{\hyperlink{class_a_main_a8b8bb1a9095b59b9f7c743f1567e63de}{Get\+Look\+At\+Rotation\+Yaw}} (F\+Vector Target)
+\item 
+void \mbox{\hyperlink{class_a_main_aee93875a04b556d7a8e1fb3b5180f30a}{Set\+Movement\+Status}} (\mbox{\hyperlink{_main_8h_ac6d37d7a9f2063a52b19002c16bff4f7}{E\+Movement\+Status}} Status)
+\item 
+void \mbox{\hyperlink{class_a_main_a07d7a5bbe063ac8e3813f1b12ec4ccd0}{Shift\+Key\+Down}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_afdbe6f099f13c5959dace63e8578d152}{Shift\+Key\+Up}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a8e338adaae1123db2a4018ad4026b8be}{Decrement\+Health}} (float Amount)
+\item 
+virtual float \mbox{\hyperlink{class_a_main_a5cae7b72d573610d28f6589fe563d982}{Take\+Damage}} (float Damage\+Amount, struct F\+Damage\+Event const \&Damage\+Event, class A\+Controller $\ast$Event\+Instigator, A\+Actor $\ast$Damage\+Causer) override
+\item 
+void \mbox{\hyperlink{class_a_main_abc747544816d026b050c7bc73a772250}{Increment\+Coins}} (int32 Amount)
+\item 
+void \mbox{\hyperlink{class_a_main_aa49a299c5d28a7f731e16d50fbeb4ad9}{Increment\+Health}} (float Amount)
+\item 
+void \mbox{\hyperlink{class_a_main_a417f117450caf255c25eae46627b1609}{Die}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_main_a908b00d2ef9e97ce8a4d2659bab40791}{Jump}} () override
+\item 
+virtual void \mbox{\hyperlink{class_a_main_aa5d671ed69d4255b9b2143ad2430544f}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_main_ada4d032a18dffe2db4c7319e9a076de6}{Setup\+Player\+Input\+Component}} (class U\+Input\+Component $\ast$Player\+Input\+Component) override
+\item 
+void \mbox{\hyperlink{class_a_main_abb1e2efbf3e57c9556b0a57249fa9062}{Move\+Forward}} (float Value)
+\item 
+void \mbox{\hyperlink{class_a_main_a409a6cdf2d17be679755163dc02a9212}{Move\+Right}} (float Value)
+\item 
+void \mbox{\hyperlink{class_a_main_ab39948311b3c70f49509d50db62aee67}{Turn\+At\+Rate}} (float Rate)
+\item 
+void \mbox{\hyperlink{class_a_main_ae1e279332309820f9fa4125eda906a33}{Look\+Up\+At\+Rate}} (float Rate)
+\item 
+void \mbox{\hyperlink{class_a_main_a8f7f10452c938c6752694adf98b7b881}{Turn}} (float Value)
+\item 
+void \mbox{\hyperlink{class_a_main_ac6f93d25f888ca8f9eff47074655652c}{Look\+Up}} (float Value)
+\item 
+void \mbox{\hyperlink{class_a_main_a1b2eca96f55ccaa74fa5b4a0900f944c}{L\+M\+B\+Down}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a68b76ea798dfad8c5930008f24604587}{L\+M\+B\+Up}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_addc39baea875512a643be67c23f8f5ce}{E\+S\+C\+Down}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_ad37994f630564176ea720ed2f1f4ef15}{E\+S\+C\+Up}} ()
+\item 
+bool \mbox{\hyperlink{class_a_main_ad43a686a11564dba3bfd77a773de5300}{Allow\+Input}} (float Value)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Spring\+Arm\+Component $\ast$ \mbox{\hyperlink{class_a_main_a58247001ea5da99cf8878ba34ff9d003}{Get\+Camera\+Boom}} () const
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_main_ac70acfe870656a5074f85b5c6e55cdaa}{Get\+Follow\+Camera}} () const
+\item 
+void \mbox{\hyperlink{class_a_main_a7297829b0f75582a86098bdde26c8dd0}{Set\+Equipped\+Weapon}} (\mbox{\hyperlink{class_a_weapon}{A\+Weapon}} $\ast$Weapon\+To\+Set)
+\item 
+\mbox{\hyperlink{class_a_weapon}{A\+Weapon}} $\ast$ \mbox{\hyperlink{class_a_main_ad20372529271b3972a5e11e2ae874290}{Get\+Equipped\+Weapon}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_main_a9bfb51d80e90ea2a8c199859bd49f7d8}{Set\+Active\+Overlapping\+Item}} (\mbox{\hyperlink{class_a_item}{A\+Item}} $\ast$Item)
+\item 
+void \mbox{\hyperlink{class_a_main_a731394b6338ee30f78b0adfcb4cf288f}{Attack}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a41d09406043165e2918d6c53ab6862fc}{Attack\+End}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a3a5b42284052459d667fa897d9f862e2}{Play\+Swing\+Sound}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_aa3129a97dafa706da9ced01c8b2bd434}{Death\+End}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_aa505e2e2590dfa17a19661c80aee43f2}{Update\+Combat\+Target}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a57e8f9a38c155ff8942dc4b29b0d2a56}{Switch\+Level}} (F\+Name Level\+Name)
+\item 
+void \mbox{\hyperlink{class_a_main_a6501790cbb158d4654047bbd15a29654}{Save\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_a7882bedc86d7110fc4d703deff6a0562}{Load\+Game}} (bool Load\+Position)
+\item 
+void \mbox{\hyperlink{class_a_main_a019a6093af6f369a9fea2579ee643711}{Load\+Game\+No\+Switch}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_f_character_stats}{F\+Character\+Stats}} \mbox{\hyperlink{class_a_main_a70964d16eeef4562672dbd9a7b769786}{Character\+Stats}}
+\item 
+bool \mbox{\hyperlink{class_a_main_a8651fb0b0dd3ac9b74e89a9767858632}{b\+Has\+Combat\+Target}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_main_af54c5db178284d8b7379456bf4c0861f}{Combat\+Target\+Location}}
+\item 
+class \mbox{\hyperlink{class_a_main_player_controller}{A\+Main\+Player\+Controller}} $\ast$ \mbox{\hyperlink{class_a_main_afbe857dc4d07324ebf751ec7546db8bb}{Main\+Player\+Controller}}
+\item 
+class U\+Particle\+System $\ast$ \mbox{\hyperlink{class_a_main_a359d0df1d0ab0204df96ea55217b3a0e}{Hit\+Particles}}
+\item 
+class U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_main_adeb12430a7b760335aed0d484ae67d25}{Hit\+Sound}}
+\item 
+T\+Array$<$ F\+Vector $>$ \mbox{\hyperlink{class_a_main_a13eddc435ec707f6621a73b987a862bb}{Pickup\+Locations}}
+\item 
+\mbox{\hyperlink{_main_8h_ac6d37d7a9f2063a52b19002c16bff4f7}{E\+Movement\+Status}} \mbox{\hyperlink{class_a_main_a7bf76a57d0021112efa12e2cba276a75}{Movement\+Status}}
+\item 
+\mbox{\hyperlink{_main_8h_a19e574da0bfc67b04aa308d2dbf2e96a}{E\+Stamina\+Status}} \mbox{\hyperlink{class_a_main_a40fffe279b23dd50d2b54710425a3547}{Stamina\+Status}}
+\item 
+float \mbox{\hyperlink{class_a_main_a4b6d9a215749719e064c071c33a913b8}{Stamina\+Drain\+Rate}}
+\item 
+float \mbox{\hyperlink{class_a_main_a0f9c610e54488f6f9a6170a39cb4690b}{Min\+Sprint\+Stamina}}
+\item 
+float \mbox{\hyperlink{class_a_main_ae3c1e482fe87f4b7a352c9a68fe2f749}{Interp\+Speed}}
+\item 
+bool \mbox{\hyperlink{class_a_main_ab9460f887bcaa513eb4c2967c51e99bb}{b\+Interp\+To\+Enemy}}
+\item 
+class \mbox{\hyperlink{class_a_enemy}{A\+Enemy}} $\ast$ \mbox{\hyperlink{class_a_main_a25a7fe16b635d2ed6368f414aab2af7d}{Combat\+Target}}
+\item 
+float \mbox{\hyperlink{class_a_main_a43e878f258f8e1cea78b6de58dd2dfc5}{Running\+Speed}}
+\item 
+float \mbox{\hyperlink{class_a_main_a9537e811ce9496bad5edb184f035778d}{Sprinting\+Speed}}
+\item 
+bool \mbox{\hyperlink{class_a_main_aeb43eecefd6134d9f44d506810f4a589}{b\+Shift\+Key\+Down}}
+\item 
+class U\+Spring\+Arm\+Component $\ast$ \mbox{\hyperlink{class_a_main_ac5bf55eae6848c08efbc3c7ac9f056d7}{Camera\+Boom}}
+\item 
+class U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_main_a8588b786ebafb4281f88235a2faf6da4}{Follow\+Camera}}
+\item 
+float \mbox{\hyperlink{class_a_main_a7fe39e286e7d12879581614652f9f83c}{Base\+Turn\+Rate}}
+\item 
+float \mbox{\hyperlink{class_a_main_ae284df41e7c01d2dbcfbf39daded2842}{Base\+Look\+Up\+Rate}}
+\item 
+float \mbox{\hyperlink{class_a_main_a771770e79a579aafa378fc934df80402}{Max\+Health}}
+\item 
+float \mbox{\hyperlink{class_a_main_aef71c930c4c530397cffb2f370de1c2b}{Health}}
+\item 
+float \mbox{\hyperlink{class_a_main_ae417f7ac197c6a741676e7b966f9df76}{Max\+Stamina}}
+\item 
+float \mbox{\hyperlink{class_a_main_a17d86ef31ed5616596a8c8fdc1bd046f}{Stamina}}
+\item 
+int32 \mbox{\hyperlink{class_a_main_a4a5848fcb6a23495b5590a237260337c}{Coins}}
+\item 
+bool \mbox{\hyperlink{class_a_main_aad83301e2fbccc8fa7928e877bb02aec}{b\+Moving\+Forward}}
+\item 
+bool \mbox{\hyperlink{class_a_main_a4aaee2e03a90321a85081796186a4aa0}{b\+Moving\+Right}}
+\item 
+bool \mbox{\hyperlink{class_a_main_a558133fb690468aaceb37cc6a97c4432}{b\+L\+M\+B\+Down}}
+\item 
+bool \mbox{\hyperlink{class_a_main_af3d3e6d51962e92e39490f448a25ad0d}{b\+E\+S\+C\+Down}}
+\item 
+class \mbox{\hyperlink{class_a_weapon}{A\+Weapon}} $\ast$ \mbox{\hyperlink{class_a_main_a5f15de90a3a27ec2be210bb034f45c28}{Equipped\+Weapon}}
+\item 
+class \mbox{\hyperlink{class_a_item}{A\+Item}} $\ast$ \mbox{\hyperlink{class_a_main_a2d047b1c0710d0d59c5f71f3d74bc59b}{Active\+Overlapping\+Item}}
+\item 
+bool \mbox{\hyperlink{class_a_main_ad3d03f9f868a2330cf14b9162e21ddd1}{b\+Attacking}}
+\item 
+class U\+Anim\+Montage $\ast$ \mbox{\hyperlink{class_a_main_a9635368f3804f5105dc2bf3e70098647}{Combat\+Montage}}
+\item 
+T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_enemy}{A\+Enemy}} $>$ \mbox{\hyperlink{class_a_main_a8333098c5f4fe71e118858649e795fcc}{Enemy\+Filter}}
+\item 
+T\+Subclass\+Of$<$ class \mbox{\hyperlink{class_a_weapon_container_actor}{A\+Weapon\+Container\+Actor}} $>$ \mbox{\hyperlink{class_a_main_aa532b8ce150e419345c19847d490bb82}{Weapon\+Container}}
+\item 
+bool \mbox{\hyperlink{class_a_main_a271ae4204d0d1a304d1da2dd78f32383}{temp}} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_main_a3f8507086a4cbf60c47198033daa1e87}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 70 of file Main.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_main_a10079fd85c05ccb4ed3cbdefc4068adf}\label{class_a_main_a10079fd85c05ccb4ed3cbdefc4068adf}} 
+\index{AMain@{AMain}!AMain@{AMain}}
+\index{AMain@{AMain}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{AMain()}{AMain()}}
+{\footnotesize\ttfamily A\+Main\+::\+A\+Main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file Main.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_main_ad43a686a11564dba3bfd77a773de5300}\label{class_a_main_ad43a686a11564dba3bfd77a773de5300}} 
+\index{AMain@{AMain}!AllowInput@{AllowInput}}
+\index{AllowInput@{AllowInput}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{AllowInput()}{AllowInput()}}
+{\footnotesize\ttfamily bool A\+Main\+::\+Allow\+Input (\begin{DoxyParamCaption}\item[{float}]{Value }\end{DoxyParamCaption})}
+
+
+
+Definition at line 266 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ad43a686a11564dba3bfd77a773de5300_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a731394b6338ee30f78b0adfcb4cf288f}\label{class_a_main_a731394b6338ee30f78b0adfcb4cf288f}} 
+\index{AMain@{AMain}!Attack@{Attack}}
+\index{Attack@{Attack}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Attack()}{Attack()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 484 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_a_main_a731394b6338ee30f78b0adfcb4cf288f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a731394b6338ee30f78b0adfcb4cf288f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a41d09406043165e2918d6c53ab6862fc}\label{class_a_main_a41d09406043165e2918d6c53ab6862fc}} 
+\index{AMain@{AMain}!AttackEnd@{AttackEnd}}
+\index{AttackEnd@{AttackEnd}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{AttackEnd()}{AttackEnd()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Attack\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 513 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a41d09406043165e2918d6c53ab6862fc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a3f8507086a4cbf60c47198033daa1e87}\label{class_a_main_a3f8507086a4cbf60c47198033daa1e87}} 
+\index{AMain@{AMain}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 91 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a3f8507086a4cbf60c47198033daa1e87_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_aa3129a97dafa706da9ced01c8b2bd434}\label{class_a_main_aa3129a97dafa706da9ced01c8b2bd434}} 
+\index{AMain@{AMain}!DeathEnd@{DeathEnd}}
+\index{DeathEnd@{DeathEnd}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{DeathEnd()}{DeathEnd()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Death\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 434 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_a8e338adaae1123db2a4018ad4026b8be}\label{class_a_main_a8e338adaae1123db2a4018ad4026b8be}} 
+\index{AMain@{AMain}!DecrementHealth@{DecrementHealth}}
+\index{DecrementHealth@{DecrementHealth}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{DecrementHealth()}{DecrementHealth()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Decrement\+Health (\begin{DoxyParamCaption}\item[{float}]{Amount }\end{DoxyParamCaption})}
+
+
+
+Definition at line 384 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a8e338adaae1123db2a4018ad4026b8be_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a417f117450caf255c25eae46627b1609}\label{class_a_main_a417f117450caf255c25eae46627b1609}} 
+\index{AMain@{AMain}!Die@{Die}}
+\index{Die@{Die}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Die()}{Die()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Die (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 414 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{class_a_main_a417f117450caf255c25eae46627b1609_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_a_main_a417f117450caf255c25eae46627b1609_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_addc39baea875512a643be67c23f8f5ce}\label{class_a_main_addc39baea875512a643be67c23f8f5ce}} 
+\index{AMain@{AMain}!ESCDown@{ESCDown}}
+\index{ESCDown@{ESCDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ESCDown()}{ESCDown()}}
+{\footnotesize\ttfamily void A\+Main\+::\+E\+S\+C\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 369 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_addc39baea875512a643be67c23f8f5ce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_addc39baea875512a643be67c23f8f5ce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_ad37994f630564176ea720ed2f1f4ef15}\label{class_a_main_ad37994f630564176ea720ed2f1f4ef15}} 
+\index{AMain@{AMain}!ESCUp@{ESCUp}}
+\index{ESCUp@{ESCUp}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ESCUp()}{ESCUp()}}
+{\footnotesize\ttfamily void A\+Main\+::\+E\+S\+C\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 379 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ad37994f630564176ea720ed2f1f4ef15_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a58247001ea5da99cf8878ba34ff9d003}\label{class_a_main_a58247001ea5da99cf8878ba34ff9d003}} 
+\index{AMain@{AMain}!GetCameraBoom@{GetCameraBoom}}
+\index{GetCameraBoom@{GetCameraBoom}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{GetCameraBoom()}{GetCameraBoom()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Spring\+Arm\+Component$\ast$ A\+Main\+::\+Get\+Camera\+Boom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 241 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ad20372529271b3972a5e11e2ae874290}\label{class_a_main_ad20372529271b3972a5e11e2ae874290}} 
+\index{AMain@{AMain}!GetEquippedWeapon@{GetEquippedWeapon}}
+\index{GetEquippedWeapon@{GetEquippedWeapon}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{GetEquippedWeapon()}{GetEquippedWeapon()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_weapon}{A\+Weapon}}$\ast$ A\+Main\+::\+Get\+Equipped\+Weapon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 253 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ac70acfe870656a5074f85b5c6e55cdaa}\label{class_a_main_ac70acfe870656a5074f85b5c6e55cdaa}} 
+\index{AMain@{AMain}!GetFollowCamera@{GetFollowCamera}}
+\index{GetFollowCamera@{GetFollowCamera}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{GetFollowCamera()}{GetFollowCamera()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Camera\+Component$\ast$ A\+Main\+::\+Get\+Follow\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 242 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a8b8bb1a9095b59b9f7c743f1567e63de}\label{class_a_main_a8b8bb1a9095b59b9f7c743f1567e63de}} 
+\index{AMain@{AMain}!GetLookAtRotationYaw@{GetLookAtRotationYaw}}
+\index{GetLookAtRotationYaw@{GetLookAtRotationYaw}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{GetLookAtRotationYaw()}{GetLookAtRotationYaw()}}
+{\footnotesize\ttfamily F\+Rotator A\+Main\+::\+Get\+Look\+At\+Rotation\+Yaw (\begin{DoxyParamCaption}\item[{F\+Vector}]{Target }\end{DoxyParamCaption})}
+
+
+
+Definition at line 231 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_a_main_a8b8bb1a9095b59b9f7c743f1567e63de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_abc747544816d026b050c7bc73a772250}\label{class_a_main_abc747544816d026b050c7bc73a772250}} 
+\index{AMain@{AMain}!IncrementCoins@{IncrementCoins}}
+\index{IncrementCoins@{IncrementCoins}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{IncrementCoins()}{IncrementCoins()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Increment\+Coins (\begin{DoxyParamCaption}\item[{int32}]{Amount }\end{DoxyParamCaption})}
+
+
+
+Definition at line 397 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_aa49a299c5d28a7f731e16d50fbeb4ad9}\label{class_a_main_aa49a299c5d28a7f731e16d50fbeb4ad9}} 
+\index{AMain@{AMain}!IncrementHealth@{IncrementHealth}}
+\index{IncrementHealth@{IncrementHealth}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{IncrementHealth()}{IncrementHealth()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Increment\+Health (\begin{DoxyParamCaption}\item[{float}]{Amount }\end{DoxyParamCaption})}
+
+
+
+Definition at line 402 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_a908b00d2ef9e97ce8a4d2659bab40791}\label{class_a_main_a908b00d2ef9e97ce8a4d2659bab40791}} 
+\index{AMain@{AMain}!Jump@{Jump}}
+\index{Jump@{Jump}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 426 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a908b00d2ef9e97ce8a4d2659bab40791_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a1b2eca96f55ccaa74fa5b4a0900f944c}\label{class_a_main_a1b2eca96f55ccaa74fa5b4a0900f944c}} 
+\index{AMain@{AMain}!LMBDown@{LMBDown}}
+\index{LMBDown@{LMBDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LMBDown()}{LMBDown()}}
+{\footnotesize\ttfamily void A\+Main\+::\+L\+M\+B\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 343 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a1b2eca96f55ccaa74fa5b4a0900f944c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a1b2eca96f55ccaa74fa5b4a0900f944c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a68b76ea798dfad8c5930008f24604587}\label{class_a_main_a68b76ea798dfad8c5930008f24604587}} 
+\index{AMain@{AMain}!LMBUp@{LMBUp}}
+\index{LMBUp@{LMBUp}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LMBUp()}{LMBUp()}}
+{\footnotesize\ttfamily void A\+Main\+::\+L\+M\+B\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 364 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a68b76ea798dfad8c5930008f24604587_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a7882bedc86d7110fc4d703deff6a0562}\label{class_a_main_a7882bedc86d7110fc4d703deff6a0562}} 
+\index{AMain@{AMain}!LoadGame@{LoadGame}}
+\index{LoadGame@{LoadGame}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LoadGame()}{LoadGame()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Load\+Game (\begin{DoxyParamCaption}\item[{bool}]{Load\+Position }\end{DoxyParamCaption})}
+
+
+
+Definition at line 651 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a7882bedc86d7110fc4d703deff6a0562_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a019a6093af6f369a9fea2579ee643711}\label{class_a_main_a019a6093af6f369a9fea2579ee643711}} 
+\index{AMain@{AMain}!LoadGameNoSwitch@{LoadGameNoSwitch}}
+\index{LoadGameNoSwitch@{LoadGameNoSwitch}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LoadGameNoSwitch()}{LoadGameNoSwitch()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Load\+Game\+No\+Switch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 704 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a019a6093af6f369a9fea2579ee643711_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a019a6093af6f369a9fea2579ee643711_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_ac6f93d25f888ca8f9eff47074655652c}\label{class_a_main_ac6f93d25f888ca8f9eff47074655652c}} 
+\index{AMain@{AMain}!LookUp@{LookUp}}
+\index{LookUp@{LookUp}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LookUp()}{LookUp()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Look\+Up (\begin{DoxyParamCaption}\item[{float}]{Value }\end{DoxyParamCaption})}
+
+Called for mouse input add pitch rotation 
+
+Definition at line 283 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_a_main_ac6f93d25f888ca8f9eff47074655652c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ac6f93d25f888ca8f9eff47074655652c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_ae1e279332309820f9fa4125eda906a33}\label{class_a_main_ae1e279332309820f9fa4125eda906a33}} 
+\index{AMain@{AMain}!LookUpAtRate@{LookUpAtRate}}
+\index{LookUpAtRate@{LookUpAtRate}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{LookUpAtRate()}{LookUpAtRate()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Look\+Up\+At\+Rate (\begin{DoxyParamCaption}\item[{float}]{Rate }\end{DoxyParamCaption})}
+
+Called via input to look up/down at a given rate 
+\begin{DoxyParams}{Parameters}
+{\em Rate} & This is a normalized rate, i.\+e. 1.\+0 means 100\% of desired look up/down rate \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 335 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_a_main_ae1e279332309820f9fa4125eda906a33_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ae1e279332309820f9fa4125eda906a33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_abb1e2efbf3e57c9556b0a57249fa9062}\label{class_a_main_abb1e2efbf3e57c9556b0a57249fa9062}} 
+\index{AMain@{AMain}!MoveForward@{MoveForward}}
+\index{MoveForward@{MoveForward}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MoveForward()}{MoveForward()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Move\+Forward (\begin{DoxyParamCaption}\item[{float}]{Value }\end{DoxyParamCaption})}
+
+Called for forwards/backwards input 
+
+Definition at line 291 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_a_main_abb1e2efbf3e57c9556b0a57249fa9062_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_abb1e2efbf3e57c9556b0a57249fa9062_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a409a6cdf2d17be679755163dc02a9212}\label{class_a_main_a409a6cdf2d17be679755163dc02a9212}} 
+\index{AMain@{AMain}!MoveRight@{MoveRight}}
+\index{MoveRight@{MoveRight}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MoveRight()}{MoveRight()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Move\+Right (\begin{DoxyParamCaption}\item[{float}]{Value }\end{DoxyParamCaption})}
+
+Called for side to side input 
+
+Definition at line 308 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_a_main_a409a6cdf2d17be679755163dc02a9212_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a409a6cdf2d17be679755163dc02a9212_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a3a5b42284052459d667fa897d9f862e2}\label{class_a_main_a3a5b42284052459d667fa897d9f862e2}} 
+\index{AMain@{AMain}!PlaySwingSound@{PlaySwingSound}}
+\index{PlaySwingSound@{PlaySwingSound}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{PlaySwingSound()}{PlaySwingSound()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Play\+Swing\+Sound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 523 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_a6501790cbb158d4654047bbd15a29654}\label{class_a_main_a6501790cbb158d4654047bbd15a29654}} 
+\index{AMain@{AMain}!SaveGame@{SaveGame}}
+\index{SaveGame@{SaveGame}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SaveGame()}{SaveGame()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Save\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 624 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_a9bfb51d80e90ea2a8c199859bd49f7d8}\label{class_a_main_a9bfb51d80e90ea2a8c199859bd49f7d8}} 
+\index{AMain@{AMain}!SetActiveOverlappingItem@{SetActiveOverlappingItem}}
+\index{SetActiveOverlappingItem@{SetActiveOverlappingItem}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetActiveOverlappingItem()}{SetActiveOverlappingItem()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Main\+::\+Set\+Active\+Overlapping\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_item}{A\+Item}} $\ast$}]{Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 255 of file Main.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a9bfb51d80e90ea2a8c199859bd49f7d8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a3786cff0a9f533d5083334bc743bc1f5}\label{class_a_main_a3786cff0a9f533d5083334bc743bc1f5}} 
+\index{AMain@{AMain}!SetCombatTarget@{SetCombatTarget}}
+\index{SetCombatTarget@{SetCombatTarget}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetCombatTarget()}{SetCombatTarget()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Main\+::\+Set\+Combat\+Target (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_enemy}{A\+Enemy}} $\ast$}]{Target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 125 of file Main.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a3786cff0a9f533d5083334bc743bc1f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a7297829b0f75582a86098bdde26c8dd0}\label{class_a_main_a7297829b0f75582a86098bdde26c8dd0}} 
+\index{AMain@{AMain}!SetEquippedWeapon@{SetEquippedWeapon}}
+\index{SetEquippedWeapon@{SetEquippedWeapon}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetEquippedWeapon()}{SetEquippedWeapon()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Set\+Equipped\+Weapon (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_weapon}{A\+Weapon}} $\ast$}]{Weapon\+To\+Set }\end{DoxyParamCaption})}
+
+
+
+Definition at line 473 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a7297829b0f75582a86098bdde26c8dd0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a72ee0bb3bf51257605398416b24785b0}\label{class_a_main_a72ee0bb3bf51257605398416b24785b0}} 
+\index{AMain@{AMain}!SetHasCombatTarget@{SetHasCombatTarget}}
+\index{SetHasCombatTarget@{SetHasCombatTarget}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetHasCombatTarget()}{SetHasCombatTarget()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Main\+::\+Set\+Has\+Combat\+Target (\begin{DoxyParamCaption}\item[{bool}]{Has\+Target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 83 of file Main.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a72ee0bb3bf51257605398416b24785b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a17e1c912781ae9acff78d4161ac57e6f}\label{class_a_main_a17e1c912781ae9acff78d4161ac57e6f}} 
+\index{AMain@{AMain}!SetInterpToEnemy@{SetInterpToEnemy}}
+\index{SetInterpToEnemy@{SetInterpToEnemy}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetInterpToEnemy()}{SetInterpToEnemy()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Set\+Interp\+To\+Enemy (\begin{DoxyParamCaption}\item[{bool}]{Interp }\end{DoxyParamCaption})}
+
+
+
+Definition at line 531 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a17e1c912781ae9acff78d4161ac57e6f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_aee93875a04b556d7a8e1fb3b5180f30a}\label{class_a_main_aee93875a04b556d7a8e1fb3b5180f30a}} 
+\index{AMain@{AMain}!SetMovementStatus@{SetMovementStatus}}
+\index{SetMovementStatus@{SetMovementStatus}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetMovementStatus()}{SetMovementStatus()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Set\+Movement\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_main_8h_ac6d37d7a9f2063a52b19002c16bff4f7}{E\+Movement\+Status}}}]{Status }\end{DoxyParamCaption})}
+
+Set movement status and running speed 
+
+Definition at line 440 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_aee93875a04b556d7a8e1fb3b5180f30a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a4d4556c2510e75698a02efc952079032}\label{class_a_main_a4d4556c2510e75698a02efc952079032}} 
+\index{AMain@{AMain}!SetStaminaStatus@{SetStaminaStatus}}
+\index{SetStaminaStatus@{SetStaminaStatus}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetStaminaStatus()}{SetStaminaStatus()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Main\+::\+Set\+Stamina\+Status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_main_8h_a19e574da0bfc67b04aa308d2dbf2e96a}{E\+Stamina\+Status}}}]{Status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 108 of file Main.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_a_main_a4d4556c2510e75698a02efc952079032_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_ada4d032a18dffe2db4c7319e9a076de6}\label{class_a_main_ada4d032a18dffe2db4c7319e9a076de6}} 
+\index{AMain@{AMain}!SetupPlayerInputComponent@{SetupPlayerInputComponent}}
+\index{SetupPlayerInputComponent@{SetupPlayerInputComponent}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SetupPlayerInputComponent()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class U\+Input\+Component $\ast$}]{Player\+Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 239 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ada4d032a18dffe2db4c7319e9a076de6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a07d7a5bbe063ac8e3813f1b12ec4ccd0}\label{class_a_main_a07d7a5bbe063ac8e3813f1b12ec4ccd0}} 
+\index{AMain@{AMain}!ShiftKeyDown@{ShiftKeyDown}}
+\index{ShiftKeyDown@{ShiftKeyDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ShiftKeyDown()}{ShiftKeyDown()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Shift\+Key\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pressed down to enable sprinting 
+
+Definition at line 454 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a07d7a5bbe063ac8e3813f1b12ec4ccd0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_afdbe6f099f13c5959dace63e8578d152}\label{class_a_main_afdbe6f099f13c5959dace63e8578d152}} 
+\index{AMain@{AMain}!ShiftKeyUp@{ShiftKeyUp}}
+\index{ShiftKeyUp@{ShiftKeyUp}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ShiftKeyUp()}{ShiftKeyUp()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Shift\+Key\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Released to stop sprinting 
+
+Definition at line 460 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_afdbe6f099f13c5959dace63e8578d152_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a7e6fd9b2ba4d7def1b86f44f3b5e8705}\label{class_a_main_a7e6fd9b2ba4d7def1b86f44f3b5e8705}} 
+\index{AMain@{AMain}!ShowPickupLocations@{ShowPickupLocations}}
+\index{ShowPickupLocations@{ShowPickupLocations}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ShowPickupLocations()}{ShowPickupLocations()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Show\+Pickup\+Locations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 465 of file Main.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_a57e8f9a38c155ff8942dc4b29b0d2a56}\label{class_a_main_a57e8f9a38c155ff8942dc4b29b0d2a56}} 
+\index{AMain@{AMain}!SwitchLevel@{SwitchLevel}}
+\index{SwitchLevel@{SwitchLevel}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SwitchLevel()}{SwitchLevel()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Switch\+Level (\begin{DoxyParamCaption}\item[{F\+Name}]{Level\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 605 of file Main.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a57e8f9a38c155ff8942dc4b29b0d2a56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a5cae7b72d573610d28f6589fe563d982}\label{class_a_main_a5cae7b72d573610d28f6589fe563d982}} 
+\index{AMain@{AMain}!TakeDamage@{TakeDamage}}
+\index{TakeDamage@{TakeDamage}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{TakeDamage()}{TakeDamage()}}
+{\footnotesize\ttfamily float A\+Main\+::\+Take\+Damage (\begin{DoxyParamCaption}\item[{float}]{Damage\+Amount,  }\item[{struct F\+Damage\+Event const \&}]{Damage\+Event,  }\item[{class A\+Controller $\ast$}]{Event\+Instigator,  }\item[{A\+Actor $\ast$}]{Damage\+Causer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 536 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a5cae7b72d573610d28f6589fe563d982_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_aa5d671ed69d4255b9b2143ad2430544f}\label{class_a_main_aa5d671ed69d4255b9b2143ad2430544f}} 
+\index{AMain@{AMain}!Tick@{Tick}}
+\index{Tick@{Tick}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 105 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_a_main_aa5d671ed69d4255b9b2143ad2430544f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_a8f7f10452c938c6752694adf98b7b881}\label{class_a_main_a8f7f10452c938c6752694adf98b7b881}} 
+\index{AMain@{AMain}!Turn@{Turn}}
+\index{Turn@{Turn}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Turn()}{Turn()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Turn (\begin{DoxyParamCaption}\item[{float}]{Value }\end{DoxyParamCaption})}
+
+Called for mouse input add yaw rotation 
+
+Definition at line 275 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{class_a_main_a8f7f10452c938c6752694adf98b7b881_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_a8f7f10452c938c6752694adf98b7b881_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_ab39948311b3c70f49509d50db62aee67}\label{class_a_main_ab39948311b3c70f49509d50db62aee67}} 
+\index{AMain@{AMain}!TurnAtRate@{TurnAtRate}}
+\index{TurnAtRate@{TurnAtRate}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{TurnAtRate()}{TurnAtRate()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Turn\+At\+Rate (\begin{DoxyParamCaption}\item[{float}]{Rate }\end{DoxyParamCaption})}
+
+Called via input to turn at a given rate 
+\begin{DoxyParams}{Parameters}
+{\em Rate} & This is a normalized rate, i.\+e. 1.\+0 means 100\% of desired turn rate \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 324 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_a_main_ab39948311b3c70f49509d50db62aee67_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_ab39948311b3c70f49509d50db62aee67_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_aa505e2e2590dfa17a19661c80aee43f2}\label{class_a_main_aa505e2e2590dfa17a19661c80aee43f2}} 
+\index{AMain@{AMain}!UpdateCombatTarget@{UpdateCombatTarget}}
+\index{UpdateCombatTarget@{UpdateCombatTarget}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{UpdateCombatTarget()}{UpdateCombatTarget()}}
+{\footnotesize\ttfamily void A\+Main\+::\+Update\+Combat\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 563 of file Main.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_aa505e2e2590dfa17a19661c80aee43f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_aa505e2e2590dfa17a19661c80aee43f2_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_main_a2d047b1c0710d0d59c5f71f3d74bc59b}\label{class_a_main_a2d047b1c0710d0d59c5f71f3d74bc59b}} 
+\index{AMain@{AMain}!ActiveOverlappingItem@{ActiveOverlappingItem}}
+\index{ActiveOverlappingItem@{ActiveOverlappingItem}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{ActiveOverlappingItem}{ActiveOverlappingItem}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_a_item}{A\+Item}}$\ast$ A\+Main\+::\+Active\+Overlapping\+Item}
+
+
+
+Definition at line 248 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ae284df41e7c01d2dbcfbf39daded2842}\label{class_a_main_ae284df41e7c01d2dbcfbf39daded2842}} 
+\index{AMain@{AMain}!BaseLookUpRate@{BaseLookUpRate}}
+\index{BaseLookUpRate@{BaseLookUpRate}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{BaseLookUpRate}{BaseLookUpRate}}
+{\footnotesize\ttfamily float A\+Main\+::\+Base\+Look\+Up\+Rate}
+
+
+
+Definition at line 158 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a7fe39e286e7d12879581614652f9f83c}\label{class_a_main_a7fe39e286e7d12879581614652f9f83c}} 
+\index{AMain@{AMain}!BaseTurnRate@{BaseTurnRate}}
+\index{BaseTurnRate@{BaseTurnRate}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{BaseTurnRate}{BaseTurnRate}}
+{\footnotesize\ttfamily float A\+Main\+::\+Base\+Turn\+Rate}
+
+Base turn rates to scale turning functions for the camera 
+
+Definition at line 156 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ad3d03f9f868a2330cf14b9162e21ddd1}\label{class_a_main_ad3d03f9f868a2330cf14b9162e21ddd1}} 
+\index{AMain@{AMain}!bAttacking@{bAttacking}}
+\index{bAttacking@{bAttacking}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bAttacking}{bAttacking}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Attacking}
+
+
+
+Definition at line 258 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_af3d3e6d51962e92e39490f448a25ad0d}\label{class_a_main_af3d3e6d51962e92e39490f448a25ad0d}} 
+\index{AMain@{AMain}!bESCDown@{bESCDown}}
+\index{bESCDown@{bESCDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bESCDown}{bESCDown}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+E\+S\+C\+Down}
+
+
+
+Definition at line 235 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a8651fb0b0dd3ac9b74e89a9767858632}\label{class_a_main_a8651fb0b0dd3ac9b74e89a9767858632}} 
+\index{AMain@{AMain}!bHasCombatTarget@{bHasCombatTarget}}
+\index{bHasCombatTarget@{bHasCombatTarget}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bHasCombatTarget}{bHasCombatTarget}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Has\+Combat\+Target}
+
+
+
+Definition at line 81 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ab9460f887bcaa513eb4c2967c51e99bb}\label{class_a_main_ab9460f887bcaa513eb4c2967c51e99bb}} 
+\index{AMain@{AMain}!bInterpToEnemy@{bInterpToEnemy}}
+\index{bInterpToEnemy@{bInterpToEnemy}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bInterpToEnemy}{bInterpToEnemy}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Interp\+To\+Enemy}
+
+
+
+Definition at line 119 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a558133fb690468aaceb37cc6a97c4432}\label{class_a_main_a558133fb690468aaceb37cc6a97c4432}} 
+\index{AMain@{AMain}!bLMBDown@{bLMBDown}}
+\index{bLMBDown@{bLMBDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bLMBDown}{bLMBDown}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+L\+M\+B\+Down}
+
+
+
+Definition at line 231 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_aad83301e2fbccc8fa7928e877bb02aec}\label{class_a_main_aad83301e2fbccc8fa7928e877bb02aec}} 
+\index{AMain@{AMain}!bMovingForward@{bMovingForward}}
+\index{bMovingForward@{bMovingForward}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bMovingForward}{bMovingForward}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Moving\+Forward}
+
+
+
+Definition at line 212 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a4aaee2e03a90321a85081796186a4aa0}\label{class_a_main_a4aaee2e03a90321a85081796186a4aa0}} 
+\index{AMain@{AMain}!bMovingRight@{bMovingRight}}
+\index{bMovingRight@{bMovingRight}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bMovingRight}{bMovingRight}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Moving\+Right}
+
+
+
+Definition at line 213 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_aeb43eecefd6134d9f44d506810f4a589}\label{class_a_main_aeb43eecefd6134d9f44d506810f4a589}} 
+\index{AMain@{AMain}!bShiftKeyDown@{bShiftKeyDown}}
+\index{bShiftKeyDown@{bShiftKeyDown}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{bShiftKeyDown}{bShiftKeyDown}}
+{\footnotesize\ttfamily bool A\+Main\+::b\+Shift\+Key\+Down}
+
+
+
+Definition at line 138 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ac5bf55eae6848c08efbc3c7ac9f056d7}\label{class_a_main_ac5bf55eae6848c08efbc3c7ac9f056d7}} 
+\index{AMain@{AMain}!CameraBoom@{CameraBoom}}
+\index{CameraBoom@{CameraBoom}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{CameraBoom}{CameraBoom}}
+{\footnotesize\ttfamily class U\+Spring\+Arm\+Component$\ast$ A\+Main\+::\+Camera\+Boom}
+
+Camera boom positioning the camera behind the player 
+
+Definition at line 148 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a70964d16eeef4562672dbd9a7b769786}\label{class_a_main_a70964d16eeef4562672dbd9a7b769786}} 
+\index{AMain@{AMain}!CharacterStats@{CharacterStats}}
+\index{CharacterStats@{CharacterStats}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{CharacterStats}{CharacterStats}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_f_character_stats}{F\+Character\+Stats}} A\+Main\+::\+Character\+Stats}
+
+
+
+Definition at line 78 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a4a5848fcb6a23495b5590a237260337c}\label{class_a_main_a4a5848fcb6a23495b5590a237260337c}} 
+\index{AMain@{AMain}!Coins@{Coins}}
+\index{Coins@{Coins}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Coins}{Coins}}
+{\footnotesize\ttfamily int32 A\+Main\+::\+Coins}
+
+
+
+Definition at line 179 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a9635368f3804f5105dc2bf3e70098647}\label{class_a_main_a9635368f3804f5105dc2bf3e70098647}} 
+\index{AMain@{AMain}!CombatMontage@{CombatMontage}}
+\index{CombatMontage@{CombatMontage}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{CombatMontage}{CombatMontage}}
+{\footnotesize\ttfamily class U\+Anim\+Montage$\ast$ A\+Main\+::\+Combat\+Montage}
+
+
+
+Definition at line 266 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a25a7fe16b635d2ed6368f414aab2af7d}\label{class_a_main_a25a7fe16b635d2ed6368f414aab2af7d}} 
+\index{AMain@{AMain}!CombatTarget@{CombatTarget}}
+\index{CombatTarget@{CombatTarget}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{CombatTarget}{CombatTarget}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_a_enemy}{A\+Enemy}}$\ast$ A\+Main\+::\+Combat\+Target}
+
+
+
+Definition at line 123 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_af54c5db178284d8b7379456bf4c0861f}\label{class_a_main_af54c5db178284d8b7379456bf4c0861f}} 
+\index{AMain@{AMain}!CombatTargetLocation@{CombatTargetLocation}}
+\index{CombatTargetLocation@{CombatTargetLocation}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{CombatTargetLocation}{CombatTargetLocation}}
+{\footnotesize\ttfamily F\+Vector A\+Main\+::\+Combat\+Target\+Location}
+
+
+
+Definition at line 86 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a8333098c5f4fe71e118858649e795fcc}\label{class_a_main_a8333098c5f4fe71e118858649e795fcc}} 
+\index{AMain@{AMain}!EnemyFilter@{EnemyFilter}}
+\index{EnemyFilter@{EnemyFilter}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{EnemyFilter}{EnemyFilter}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$\mbox{\hyperlink{class_a_enemy}{A\+Enemy}}$>$ A\+Main\+::\+Enemy\+Filter}
+
+
+
+Definition at line 277 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a5f15de90a3a27ec2be210bb034f45c28}\label{class_a_main_a5f15de90a3a27ec2be210bb034f45c28}} 
+\index{AMain@{AMain}!EquippedWeapon@{EquippedWeapon}}
+\index{EquippedWeapon@{EquippedWeapon}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{EquippedWeapon}{EquippedWeapon}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_a_weapon}{A\+Weapon}}$\ast$ A\+Main\+::\+Equipped\+Weapon}
+
+
+
+Definition at line 245 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a8588b786ebafb4281f88235a2faf6da4}\label{class_a_main_a8588b786ebafb4281f88235a2faf6da4}} 
+\index{AMain@{AMain}!FollowCamera@{FollowCamera}}
+\index{FollowCamera@{FollowCamera}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{FollowCamera}{FollowCamera}}
+{\footnotesize\ttfamily class U\+Camera\+Component$\ast$ A\+Main\+::\+Follow\+Camera}
+
+Follow Camera 
+
+Definition at line 152 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_aef71c930c4c530397cffb2f370de1c2b}\label{class_a_main_aef71c930c4c530397cffb2f370de1c2b}} 
+\index{AMain@{AMain}!Health@{Health}}
+\index{Health@{Health}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Health}{Health}}
+{\footnotesize\ttfamily float A\+Main\+::\+Health}
+
+
+
+Definition at line 170 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a359d0df1d0ab0204df96ea55217b3a0e}\label{class_a_main_a359d0df1d0ab0204df96ea55217b3a0e}} 
+\index{AMain@{AMain}!HitParticles@{HitParticles}}
+\index{HitParticles@{HitParticles}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{HitParticles}{HitParticles}}
+{\footnotesize\ttfamily class U\+Particle\+System$\ast$ A\+Main\+::\+Hit\+Particles}
+
+
+
+Definition at line 92 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_adeb12430a7b760335aed0d484ae67d25}\label{class_a_main_adeb12430a7b760335aed0d484ae67d25}} 
+\index{AMain@{AMain}!HitSound@{HitSound}}
+\index{HitSound@{HitSound}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{HitSound}{HitSound}}
+{\footnotesize\ttfamily class U\+Sound\+Cue$\ast$ A\+Main\+::\+Hit\+Sound}
+
+
+
+Definition at line 95 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ae3c1e482fe87f4b7a352c9a68fe2f749}\label{class_a_main_ae3c1e482fe87f4b7a352c9a68fe2f749}} 
+\index{AMain@{AMain}!InterpSpeed@{InterpSpeed}}
+\index{InterpSpeed@{InterpSpeed}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{InterpSpeed}{InterpSpeed}}
+{\footnotesize\ttfamily float A\+Main\+::\+Interp\+Speed}
+
+
+
+Definition at line 116 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_afbe857dc4d07324ebf751ec7546db8bb}\label{class_a_main_afbe857dc4d07324ebf751ec7546db8bb}} 
+\index{AMain@{AMain}!MainPlayerController@{MainPlayerController}}
+\index{MainPlayerController@{MainPlayerController}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MainPlayerController}{MainPlayerController}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_a_main_player_controller}{A\+Main\+Player\+Controller}}$\ast$ A\+Main\+::\+Main\+Player\+Controller}
+
+
+
+Definition at line 89 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a771770e79a579aafa378fc934df80402}\label{class_a_main_a771770e79a579aafa378fc934df80402}} 
+\index{AMain@{AMain}!MaxHealth@{MaxHealth}}
+\index{MaxHealth@{MaxHealth}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MaxHealth}{MaxHealth}}
+{\footnotesize\ttfamily float A\+Main\+::\+Max\+Health}
+
+/$\ast$ /$\ast$ Player Stats /$\ast$ 
+
+Definition at line 167 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_ae417f7ac197c6a741676e7b966f9df76}\label{class_a_main_ae417f7ac197c6a741676e7b966f9df76}} 
+\index{AMain@{AMain}!MaxStamina@{MaxStamina}}
+\index{MaxStamina@{MaxStamina}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MaxStamina}{MaxStamina}}
+{\footnotesize\ttfamily float A\+Main\+::\+Max\+Stamina}
+
+
+
+Definition at line 173 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a0f9c610e54488f6f9a6170a39cb4690b}\label{class_a_main_a0f9c610e54488f6f9a6170a39cb4690b}} 
+\index{AMain@{AMain}!MinSprintStamina@{MinSprintStamina}}
+\index{MinSprintStamina@{MinSprintStamina}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MinSprintStamina}{MinSprintStamina}}
+{\footnotesize\ttfamily float A\+Main\+::\+Min\+Sprint\+Stamina}
+
+
+
+Definition at line 114 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a7bf76a57d0021112efa12e2cba276a75}\label{class_a_main_a7bf76a57d0021112efa12e2cba276a75}} 
+\index{AMain@{AMain}!MovementStatus@{MovementStatus}}
+\index{MovementStatus@{MovementStatus}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{MovementStatus}{MovementStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_main_8h_ac6d37d7a9f2063a52b19002c16bff4f7}{E\+Movement\+Status}} A\+Main\+::\+Movement\+Status}
+
+
+
+Definition at line 103 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a13eddc435ec707f6621a73b987a862bb}\label{class_a_main_a13eddc435ec707f6621a73b987a862bb}} 
+\index{AMain@{AMain}!PickupLocations@{PickupLocations}}
+\index{PickupLocations@{PickupLocations}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{PickupLocations}{PickupLocations}}
+{\footnotesize\ttfamily T\+Array$<$F\+Vector$>$ A\+Main\+::\+Pickup\+Locations}
+
+
+
+Definition at line 97 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a43e878f258f8e1cea78b6de58dd2dfc5}\label{class_a_main_a43e878f258f8e1cea78b6de58dd2dfc5}} 
+\index{AMain@{AMain}!RunningSpeed@{RunningSpeed}}
+\index{RunningSpeed@{RunningSpeed}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{RunningSpeed}{RunningSpeed}}
+{\footnotesize\ttfamily float A\+Main\+::\+Running\+Speed}
+
+
+
+Definition at line 133 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a9537e811ce9496bad5edb184f035778d}\label{class_a_main_a9537e811ce9496bad5edb184f035778d}} 
+\index{AMain@{AMain}!SprintingSpeed@{SprintingSpeed}}
+\index{SprintingSpeed@{SprintingSpeed}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{SprintingSpeed}{SprintingSpeed}}
+{\footnotesize\ttfamily float A\+Main\+::\+Sprinting\+Speed}
+
+
+
+Definition at line 136 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a17d86ef31ed5616596a8c8fdc1bd046f}\label{class_a_main_a17d86ef31ed5616596a8c8fdc1bd046f}} 
+\index{AMain@{AMain}!Stamina@{Stamina}}
+\index{Stamina@{Stamina}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{Stamina}{Stamina}}
+{\footnotesize\ttfamily float A\+Main\+::\+Stamina}
+
+
+
+Definition at line 176 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a4b6d9a215749719e064c071c33a913b8}\label{class_a_main_a4b6d9a215749719e064c071c33a913b8}} 
+\index{AMain@{AMain}!StaminaDrainRate@{StaminaDrainRate}}
+\index{StaminaDrainRate@{StaminaDrainRate}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{StaminaDrainRate}{StaminaDrainRate}}
+{\footnotesize\ttfamily float A\+Main\+::\+Stamina\+Drain\+Rate}
+
+
+
+Definition at line 111 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a40fffe279b23dd50d2b54710425a3547}\label{class_a_main_a40fffe279b23dd50d2b54710425a3547}} 
+\index{AMain@{AMain}!StaminaStatus@{StaminaStatus}}
+\index{StaminaStatus@{StaminaStatus}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{StaminaStatus}{StaminaStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_main_8h_a19e574da0bfc67b04aa308d2dbf2e96a}{E\+Stamina\+Status}} A\+Main\+::\+Stamina\+Status}
+
+
+
+Definition at line 106 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_a271ae4204d0d1a304d1da2dd78f32383}\label{class_a_main_a271ae4204d0d1a304d1da2dd78f32383}} 
+\index{AMain@{AMain}!temp@{temp}}
+\index{temp@{temp}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{temp}{temp}}
+{\footnotesize\ttfamily bool A\+Main\+::temp = false}
+
+
+
+Definition at line 297 of file Main.\+h.
+
+\mbox{\Hypertarget{class_a_main_aa532b8ce150e419345c19847d490bb82}\label{class_a_main_aa532b8ce150e419345c19847d490bb82}} 
+\index{AMain@{AMain}!WeaponContainer@{WeaponContainer}}
+\index{WeaponContainer@{WeaponContainer}!AMain@{AMain}}
+\doxysubsubsection{\texorpdfstring{WeaponContainer}{WeaponContainer}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$class \mbox{\hyperlink{class_a_weapon_container_actor}{A\+Weapon\+Container\+Actor}}$>$ A\+Main\+::\+Weapon\+Container}
+
+
+
+Definition at line 294 of file Main.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_main_8h}{Main.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_main_8cpp}{Main.\+cpp}}\end{DoxyCompactItemize}

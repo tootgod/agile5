@@ -1,0 +1,245 @@
+\hypertarget{class_a_floating_platform}{}\doxysection{A\+Floating\+Platform Class Reference}
+\label{class_a_floating_platform}\index{AFloatingPlatform@{AFloatingPlatform}}
+
+
+{\ttfamily \#include $<$Floating\+Platform.\+h$>$}
+
+
+
+Inheritance diagram for A\+Floating\+Platform\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{class_a_floating_platform__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Floating\+Platform\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{class_a_floating_platform__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_floating_platform_ad44184b7e83341a180024e450783239f}{A\+Floating\+Platform}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_floating_platform_a3ecc79411fbbeda876eb38fa3df8427b}{Tick}} (float Delta\+Time) override
+\item 
+void \mbox{\hyperlink{class_a_floating_platform_ae823889008c7cd78455ab3725fff4e45}{Toggle\+Interping}} ()
+\item 
+void \mbox{\hyperlink{class_a_floating_platform_ab449369a31ba87423cd1a4b6bcc519c8}{Swap\+Vectors}} (F\+Vector \&Vec\+One, F\+Vector \&Vec\+Two)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_floating_platform_aaeb568dc91b54c2df8c7a0675ecc65f8}{Mesh}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_floating_platform_a92de9178b52bdbdf17b351237adb098b}{Start\+Point}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_floating_platform_a8600bcbccbf593d09a75daf8084f7992}{End\+Point}}
+\item 
+float \mbox{\hyperlink{class_a_floating_platform_a8a44f64c0d090e8eeedf8b53e7658d00}{Interp\+Speed}}
+\item 
+float \mbox{\hyperlink{class_a_floating_platform_a1188cccd289d69ade5a930049115afc9}{Interp\+Time}}
+\item 
+F\+Timer\+Handle \mbox{\hyperlink{class_a_floating_platform_accd6a04d49f9b98873708b2ab4ae70be}{Interp\+Timer}}
+\item 
+bool \mbox{\hyperlink{class_a_floating_platform_a6ae702722d6937a73aa8897357d07d2b}{b\+Interping}}
+\item 
+float \mbox{\hyperlink{class_a_floating_platform_a34124e841c69f8dbe1adbb88460dcc9d}{Distance}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_floating_platform_aa341e08fe1d3a63c1cdb5d0528b3a551}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Floating\+Platform.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_floating_platform_ad44184b7e83341a180024e450783239f}\label{class_a_floating_platform_ad44184b7e83341a180024e450783239f}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!AFloatingPlatform@{AFloatingPlatform}}
+\index{AFloatingPlatform@{AFloatingPlatform}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{AFloatingPlatform()}{AFloatingPlatform()}}
+{\footnotesize\ttfamily A\+Floating\+Platform\+::\+A\+Floating\+Platform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file Floating\+Platform.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_floating_platform_aa341e08fe1d3a63c1cdb5d0528b3a551}\label{class_a_floating_platform_aa341e08fe1d3a63c1cdb5d0528b3a551}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Floating\+Platform\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 27 of file Floating\+Platform.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{class_a_floating_platform_aa341e08fe1d3a63c1cdb5d0528b3a551_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floating_platform_ab449369a31ba87423cd1a4b6bcc519c8}\label{class_a_floating_platform_ab449369a31ba87423cd1a4b6bcc519c8}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!SwapVectors@{SwapVectors}}
+\index{SwapVectors@{SwapVectors}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{SwapVectors()}{SwapVectors()}}
+{\footnotesize\ttfamily void A\+Floating\+Platform\+::\+Swap\+Vectors (\begin{DoxyParamCaption}\item[{F\+Vector \&}]{Vec\+One,  }\item[{F\+Vector \&}]{Vec\+Two }\end{DoxyParamCaption})}
+
+
+
+Definition at line 68 of file Floating\+Platform.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_a_floating_platform_ab449369a31ba87423cd1a4b6bcc519c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floating_platform_a3ecc79411fbbeda876eb38fa3df8427b}\label{class_a_floating_platform_a3ecc79411fbbeda876eb38fa3df8427b}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!Tick@{Tick}}
+\index{Tick@{Tick}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Floating\+Platform\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 42 of file Floating\+Platform.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_a_floating_platform_a3ecc79411fbbeda876eb38fa3df8427b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_floating_platform_ae823889008c7cd78455ab3725fff4e45}\label{class_a_floating_platform_ae823889008c7cd78455ab3725fff4e45}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!ToggleInterping@{ToggleInterping}}
+\index{ToggleInterping@{ToggleInterping}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{ToggleInterping()}{ToggleInterping()}}
+{\footnotesize\ttfamily void A\+Floating\+Platform\+::\+Toggle\+Interping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 63 of file Floating\+Platform.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_a_floating_platform_ae823889008c7cd78455ab3725fff4e45_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_floating_platform_a6ae702722d6937a73aa8897357d07d2b}\label{class_a_floating_platform_a6ae702722d6937a73aa8897357d07d2b}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!bInterping@{bInterping}}
+\index{bInterping@{bInterping}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{bInterping}{bInterping}}
+{\footnotesize\ttfamily bool A\+Floating\+Platform\+::b\+Interping}
+
+
+
+Definition at line 37 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_a34124e841c69f8dbe1adbb88460dcc9d}\label{class_a_floating_platform_a34124e841c69f8dbe1adbb88460dcc9d}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!Distance@{Distance}}
+\index{Distance@{Distance}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{Distance}{Distance}}
+{\footnotesize\ttfamily float A\+Floating\+Platform\+::\+Distance}
+
+
+
+Definition at line 39 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_a8600bcbccbf593d09a75daf8084f7992}\label{class_a_floating_platform_a8600bcbccbf593d09a75daf8084f7992}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!EndPoint@{EndPoint}}
+\index{EndPoint@{EndPoint}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{EndPoint}{EndPoint}}
+{\footnotesize\ttfamily F\+Vector A\+Floating\+Platform\+::\+End\+Point}
+
+
+
+Definition at line 26 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_a8a44f64c0d090e8eeedf8b53e7658d00}\label{class_a_floating_platform_a8a44f64c0d090e8eeedf8b53e7658d00}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!InterpSpeed@{InterpSpeed}}
+\index{InterpSpeed@{InterpSpeed}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{InterpSpeed}{InterpSpeed}}
+{\footnotesize\ttfamily float A\+Floating\+Platform\+::\+Interp\+Speed}
+
+
+
+Definition at line 29 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_a1188cccd289d69ade5a930049115afc9}\label{class_a_floating_platform_a1188cccd289d69ade5a930049115afc9}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!InterpTime@{InterpTime}}
+\index{InterpTime@{InterpTime}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{InterpTime}{InterpTime}}
+{\footnotesize\ttfamily float A\+Floating\+Platform\+::\+Interp\+Time}
+
+
+
+Definition at line 32 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_accd6a04d49f9b98873708b2ab4ae70be}\label{class_a_floating_platform_accd6a04d49f9b98873708b2ab4ae70be}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!InterpTimer@{InterpTimer}}
+\index{InterpTimer@{InterpTimer}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{InterpTimer}{InterpTimer}}
+{\footnotesize\ttfamily F\+Timer\+Handle A\+Floating\+Platform\+::\+Interp\+Timer}
+
+
+
+Definition at line 34 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_aaeb568dc91b54c2df8c7a0675ecc65f8}\label{class_a_floating_platform_aaeb568dc91b54c2df8c7a0675ecc65f8}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!Mesh@{Mesh}}
+\index{Mesh@{Mesh}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{Mesh}{Mesh}}
+{\footnotesize\ttfamily class U\+Static\+Mesh\+Component$\ast$ A\+Floating\+Platform\+::\+Mesh}
+
+Mesh for the platform 
+
+Definition at line 20 of file Floating\+Platform.\+h.
+
+\mbox{\Hypertarget{class_a_floating_platform_a92de9178b52bdbdf17b351237adb098b}\label{class_a_floating_platform_a92de9178b52bdbdf17b351237adb098b}} 
+\index{AFloatingPlatform@{AFloatingPlatform}!StartPoint@{StartPoint}}
+\index{StartPoint@{StartPoint}!AFloatingPlatform@{AFloatingPlatform}}
+\doxysubsubsection{\texorpdfstring{StartPoint}{StartPoint}}
+{\footnotesize\ttfamily F\+Vector A\+Floating\+Platform\+::\+Start\+Point}
+
+
+
+Definition at line 23 of file Floating\+Platform.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_floating_platform_8h}{Floating\+Platform.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_floating_platform_8cpp}{Floating\+Platform.\+cpp}}\end{DoxyCompactItemize}

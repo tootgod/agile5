@@ -1,0 +1,397 @@
+\hypertarget{class_a_weapon}{}\doxysection{A\+Weapon Class Reference}
+\label{class_a_weapon}\index{AWeapon@{AWeapon}}
+
+
+{\ttfamily \#include $<$Weapon.\+h$>$}
+
+
+
+Inheritance diagram for A\+Weapon\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{class_a_weapon__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Weapon\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{class_a_weapon__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_weapon_a10291d0ef9f874881c6233a1e88ce93e}{A\+Weapon}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_weapon_a84f2d5def6cbae4f8719fb3a1074a5b0}{On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result) override
+\item 
+virtual void \mbox{\hyperlink{class_a_weapon_ace6f4c9a1ef8f4672828cffe731d8922}{On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index) override
+\item 
+void \mbox{\hyperlink{class_a_weapon_a81a33ce5a307e3b6ea5d8577c6d37887}{Equip}} (class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$Char)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_weapon_acf3def04965114c4138e83a77b947ba1}{Set\+Weapon\+State}} (\mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}} State)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE \mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}} \mbox{\hyperlink{class_a_weapon_a970633967b8bdde472cde03c07f1413a}{Get\+Weapon\+State}} ()
+\item 
+void \mbox{\hyperlink{class_a_weapon_a0a65dde833549fef9236b92a7896bc2d}{Combat\+On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+void \mbox{\hyperlink{class_a_weapon_a2ac6bc15fd0462ffff5908c7391c365e}{Combat\+On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\item 
+void \mbox{\hyperlink{class_a_weapon_a2ea235fe261feca0696e25f6414623ce}{Activate\+Collision}} ()
+\item 
+void \mbox{\hyperlink{class_a_weapon_a40a57c09e15b86c9d2c017fe005cee3b}{Deactivate\+Collision}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_weapon_a8aaf92fef31840b61defc158aa3f0873}{Set\+Instigator}} (A\+Controller $\ast$Inst)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+F\+String \mbox{\hyperlink{class_a_weapon_ab24226b2e6507ab9a9ab7d7b6e4c4a13}{Name}}
+\item 
+\mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}} \mbox{\hyperlink{class_a_weapon_a7e5c6518f512f97fc160a996efec014d}{Weapon\+State}}
+\item 
+bool \mbox{\hyperlink{class_a_weapon_a529773d1d406a0619277d259c4667ac8}{b\+Weapon\+Particles}}
+\item 
+class U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_weapon_acc208449d296786ef24f4869f03b2747}{On\+Equip\+Sound}}
+\item 
+U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_weapon_a781c2aea138750617460c4298e4b0da6}{Swing\+Sound}}
+\item 
+class U\+Skeletal\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_weapon_ac04750650626fc1a31ff0349814df227}{Skeletal\+Mesh}}
+\item 
+class U\+Box\+Component $\ast$ \mbox{\hyperlink{class_a_weapon_a2e944dba44b8b71059daf09bc9df1b10}{Combat\+Collision}}
+\item 
+float \mbox{\hyperlink{class_a_weapon_a214c34dc9ef2fe50bf6bd083edb1d5d2}{Damage}}
+\item 
+T\+Subclass\+Of$<$ U\+Damage\+Type $>$ \mbox{\hyperlink{class_a_weapon_a5b7ea8c4873b63df93c81902ad7209ac}{Damage\+Type\+Class}}
+\item 
+A\+Controller $\ast$ \mbox{\hyperlink{class_a_weapon_a45e8fff1030c9801339f591bb15b222e}{Weapon\+Instigator}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_weapon_ac7b8b5af7789df37243bd2391829d906}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 22 of file Weapon.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_weapon_a10291d0ef9f874881c6233a1e88ce93e}\label{class_a_weapon_a10291d0ef9f874881c6233a1e88ce93e}} 
+\index{AWeapon@{AWeapon}!AWeapon@{AWeapon}}
+\index{AWeapon@{AWeapon}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{AWeapon()}{AWeapon()}}
+{\footnotesize\ttfamily A\+Weapon\+::\+A\+Weapon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 17 of file Weapon.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_weapon_a2ea235fe261feca0696e25f6414623ce}\label{class_a_weapon_a2ea235fe261feca0696e25f6414623ce}} 
+\index{AWeapon@{AWeapon}!ActivateCollision@{ActivateCollision}}
+\index{ActivateCollision@{ActivateCollision}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{ActivateCollision()}{ActivateCollision()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Activate\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 140 of file Weapon.\+cpp.
+
+\mbox{\Hypertarget{class_a_weapon_ac7b8b5af7789df37243bd2391829d906}\label{class_a_weapon_ac7b8b5af7789df37243bd2391829d906}} 
+\index{AWeapon@{AWeapon}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_item_ab11b1af717ab700069f202507d36b5c4}{A\+Item}}.
+
+
+
+Definition at line 33 of file Weapon.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_ac7b8b5af7789df37243bd2391829d906_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_a0a65dde833549fef9236b92a7896bc2d}\label{class_a_weapon_a0a65dde833549fef9236b92a7896bc2d}} 
+\index{AWeapon@{AWeapon}!CombatOnOverlapBegin@{CombatOnOverlapBegin}}
+\index{CombatOnOverlapBegin@{CombatOnOverlapBegin}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{CombatOnOverlapBegin()}{CombatOnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Combat\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})}
+
+
+
+Definition at line 106 of file Weapon.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a0a65dde833549fef9236b92a7896bc2d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_a2ac6bc15fd0462ffff5908c7391c365e}\label{class_a_weapon_a2ac6bc15fd0462ffff5908c7391c365e}} 
+\index{AWeapon@{AWeapon}!CombatOnOverlapEnd@{CombatOnOverlapEnd}}
+\index{CombatOnOverlapEnd@{CombatOnOverlapEnd}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{CombatOnOverlapEnd()}{CombatOnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Combat\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 135 of file Weapon.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a2ac6bc15fd0462ffff5908c7391c365e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_a40a57c09e15b86c9d2c017fe005cee3b}\label{class_a_weapon_a40a57c09e15b86c9d2c017fe005cee3b}} 
+\index{AWeapon@{AWeapon}!DeactivateCollision@{DeactivateCollision}}
+\index{DeactivateCollision@{DeactivateCollision}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{DeactivateCollision()}{DeactivateCollision()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Deactivate\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 146 of file Weapon.\+cpp.
+
+\mbox{\Hypertarget{class_a_weapon_a81a33ce5a307e3b6ea5d8577c6d37887}\label{class_a_weapon_a81a33ce5a307e3b6ea5d8577c6d37887}} 
+\index{AWeapon@{AWeapon}!Equip@{Equip}}
+\index{Equip@{Equip}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{Equip()}{Equip()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+Equip (\begin{DoxyParamCaption}\item[{class \mbox{\hyperlink{class_a_main}{A\+Main}} $\ast$}]{Char }\end{DoxyParamCaption})}
+
+
+
+Definition at line 73 of file Weapon.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a81a33ce5a307e3b6ea5d8577c6d37887_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a81a33ce5a307e3b6ea5d8577c6d37887_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_a970633967b8bdde472cde03c07f1413a}\label{class_a_weapon_a970633967b8bdde472cde03c07f1413a}} 
+\index{AWeapon@{AWeapon}!GetWeaponState@{GetWeaponState}}
+\index{GetWeaponState@{GetWeaponState}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{GetWeaponState()}{GetWeaponState()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE \mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}} A\+Weapon\+::\+Get\+Weapon\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 68 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a84f2d5def6cbae4f8719fb3a1074a5b0}\label{class_a_weapon_a84f2d5def6cbae4f8719fb3a1074a5b0}} 
+\index{AWeapon@{AWeapon}!OnOverlapBegin@{OnOverlapBegin}}
+\index{OnOverlapBegin@{OnOverlapBegin}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{OnOverlapBegin()}{OnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e}{A\+Item}}.
+
+
+
+Definition at line 47 of file Weapon.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a84f2d5def6cbae4f8719fb3a1074a5b0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_ace6f4c9a1ef8f4672828cffe731d8922}\label{class_a_weapon_ace6f4c9a1ef8f4672828cffe731d8922}} 
+\index{AWeapon@{AWeapon}!OnOverlapEnd@{OnOverlapEnd}}
+\index{OnOverlapEnd@{OnOverlapEnd}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{OnOverlapEnd()}{OnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Weapon\+::\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_item_aee761c5bf5e3d886a232608d08930c6d}{A\+Item}}.
+
+
+
+Definition at line 60 of file Weapon.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_ace6f4c9a1ef8f4672828cffe731d8922_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_a8aaf92fef31840b61defc158aa3f0873}\label{class_a_weapon_a8aaf92fef31840b61defc158aa3f0873}} 
+\index{AWeapon@{AWeapon}!SetInstigator@{SetInstigator}}
+\index{SetInstigator@{SetInstigator}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{SetInstigator()}{SetInstigator()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Weapon\+::\+Set\+Instigator (\begin{DoxyParamCaption}\item[{A\+Controller $\ast$}]{Inst }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 88 of file Weapon.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_weapon_a8aaf92fef31840b61defc158aa3f0873_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_weapon_acf3def04965114c4138e83a77b947ba1}\label{class_a_weapon_acf3def04965114c4138e83a77b947ba1}} 
+\index{AWeapon@{AWeapon}!SetWeaponState@{SetWeaponState}}
+\index{SetWeaponState@{SetWeaponState}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{SetWeaponState()}{SetWeaponState()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Weapon\+::\+Set\+Weapon\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}}}]{State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 67 of file Weapon.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_weapon_a529773d1d406a0619277d259c4667ac8}\label{class_a_weapon_a529773d1d406a0619277d259c4667ac8}} 
+\index{AWeapon@{AWeapon}!bWeaponParticles@{bWeaponParticles}}
+\index{bWeaponParticles@{bWeaponParticles}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{bWeaponParticles}{bWeaponParticles}}
+{\footnotesize\ttfamily bool A\+Weapon\+::b\+Weapon\+Particles}
+
+
+
+Definition at line 36 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a2e944dba44b8b71059daf09bc9df1b10}\label{class_a_weapon_a2e944dba44b8b71059daf09bc9df1b10}} 
+\index{AWeapon@{AWeapon}!CombatCollision@{CombatCollision}}
+\index{CombatCollision@{CombatCollision}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{CombatCollision}{CombatCollision}}
+{\footnotesize\ttfamily class U\+Box\+Component$\ast$ A\+Weapon\+::\+Combat\+Collision}
+
+
+
+Definition at line 48 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a214c34dc9ef2fe50bf6bd083edb1d5d2}\label{class_a_weapon_a214c34dc9ef2fe50bf6bd083edb1d5d2}} 
+\index{AWeapon@{AWeapon}!Damage@{Damage}}
+\index{Damage@{Damage}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{Damage}{Damage}}
+{\footnotesize\ttfamily float A\+Weapon\+::\+Damage}
+
+
+
+Definition at line 51 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a5b7ea8c4873b63df93c81902ad7209ac}\label{class_a_weapon_a5b7ea8c4873b63df93c81902ad7209ac}} 
+\index{AWeapon@{AWeapon}!DamageTypeClass@{DamageTypeClass}}
+\index{DamageTypeClass@{DamageTypeClass}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{DamageTypeClass}{DamageTypeClass}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$U\+Damage\+Type$>$ A\+Weapon\+::\+Damage\+Type\+Class}
+
+
+
+Definition at line 83 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_ab24226b2e6507ab9a9ab7d7b6e4c4a13}\label{class_a_weapon_ab24226b2e6507ab9a9ab7d7b6e4c4a13}} 
+\index{AWeapon@{AWeapon}!Name@{Name}}
+\index{Name@{Name}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily F\+String A\+Weapon\+::\+Name}
+
+
+
+Definition at line 30 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_acc208449d296786ef24f4869f03b2747}\label{class_a_weapon_acc208449d296786ef24f4869f03b2747}} 
+\index{AWeapon@{AWeapon}!OnEquipSound@{OnEquipSound}}
+\index{OnEquipSound@{OnEquipSound}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{OnEquipSound}{OnEquipSound}}
+{\footnotesize\ttfamily class U\+Sound\+Cue$\ast$ A\+Weapon\+::\+On\+Equip\+Sound}
+
+
+
+Definition at line 39 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_ac04750650626fc1a31ff0349814df227}\label{class_a_weapon_ac04750650626fc1a31ff0349814df227}} 
+\index{AWeapon@{AWeapon}!SkeletalMesh@{SkeletalMesh}}
+\index{SkeletalMesh@{SkeletalMesh}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{SkeletalMesh}{SkeletalMesh}}
+{\footnotesize\ttfamily class U\+Skeletal\+Mesh\+Component$\ast$ A\+Weapon\+::\+Skeletal\+Mesh}
+
+
+
+Definition at line 45 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a781c2aea138750617460c4298e4b0da6}\label{class_a_weapon_a781c2aea138750617460c4298e4b0da6}} 
+\index{AWeapon@{AWeapon}!SwingSound@{SwingSound}}
+\index{SwingSound@{SwingSound}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{SwingSound}{SwingSound}}
+{\footnotesize\ttfamily U\+Sound\+Cue$\ast$ A\+Weapon\+::\+Swing\+Sound}
+
+
+
+Definition at line 42 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a45e8fff1030c9801339f591bb15b222e}\label{class_a_weapon_a45e8fff1030c9801339f591bb15b222e}} 
+\index{AWeapon@{AWeapon}!WeaponInstigator@{WeaponInstigator}}
+\index{WeaponInstigator@{WeaponInstigator}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{WeaponInstigator}{WeaponInstigator}}
+{\footnotesize\ttfamily A\+Controller$\ast$ A\+Weapon\+::\+Weapon\+Instigator}
+
+
+
+Definition at line 86 of file Weapon.\+h.
+
+\mbox{\Hypertarget{class_a_weapon_a7e5c6518f512f97fc160a996efec014d}\label{class_a_weapon_a7e5c6518f512f97fc160a996efec014d}} 
+\index{AWeapon@{AWeapon}!WeaponState@{WeaponState}}
+\index{WeaponState@{WeaponState}!AWeapon@{AWeapon}}
+\doxysubsubsection{\texorpdfstring{WeaponState}{WeaponState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_weapon_8h_a0c1aaf35d516ec773fcbb71c16ce1503}{E\+Weapon\+State}} A\+Weapon\+::\+Weapon\+State}
+
+
+
+Definition at line 33 of file Weapon.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_weapon_8h}{Weapon.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_weapon_8cpp}{Weapon.\+cpp}}\end{DoxyCompactItemize}

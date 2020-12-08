@@ -1,0 +1,165 @@
+\hypertarget{class_a_level_transition_volume}{}\doxysection{A\+Level\+Transition\+Volume Class Reference}
+\label{class_a_level_transition_volume}\index{ALevelTransitionVolume@{ALevelTransitionVolume}}
+
+
+{\ttfamily \#include $<$Level\+Transition\+Volume.\+h$>$}
+
+
+
+Inheritance diagram for A\+Level\+Transition\+Volume\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_a_level_transition_volume__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Level\+Transition\+Volume\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_a_level_transition_volume__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_level_transition_volume_a376c23c19015b846c8a780b2b6a1a0f5}{A\+Level\+Transition\+Volume}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_level_transition_volume_ac6e4950000b45776c19de6f22068b8a2}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_level_transition_volume_a00889bdad0b0f940f2db3cb0adc0bf15}{On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Box\+Component $\ast$ \mbox{\hyperlink{class_a_level_transition_volume_af329aabab70a6ce561e79c4e30c33574}{Transition\+Volume}}
+\item 
+class U\+Billboard\+Component $\ast$ \mbox{\hyperlink{class_a_level_transition_volume_aee5e3b2d07eb2206081f9701ff45159f}{Billboard}}
+\item 
+F\+Name \mbox{\hyperlink{class_a_level_transition_volume_a28d94c229cd6c4fd0b79833494b25e07}{Transition\+Level\+Name}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_level_transition_volume_a8e7a353cf14a58846a8ab36e59d35b15}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Level\+Transition\+Volume.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_level_transition_volume_a376c23c19015b846c8a780b2b6a1a0f5}\label{class_a_level_transition_volume_a376c23c19015b846c8a780b2b6a1a0f5}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{ALevelTransitionVolume()}{ALevelTransitionVolume()}}
+{\footnotesize\ttfamily A\+Level\+Transition\+Volume\+::\+A\+Level\+Transition\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Level\+Transition\+Volume.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_level_transition_volume_a8e7a353cf14a58846a8ab36e59d35b15}\label{class_a_level_transition_volume_a8e7a353cf14a58846a8ab36e59d35b15}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Level\+Transition\+Volume\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 25 of file Level\+Transition\+Volume.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_level_transition_volume_a8e7a353cf14a58846a8ab36e59d35b15_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_level_transition_volume_a00889bdad0b0f940f2db3cb0adc0bf15}\label{class_a_level_transition_volume_a00889bdad0b0f940f2db3cb0adc0bf15}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!OnOverlapBegin@{OnOverlapBegin}}
+\index{OnOverlapBegin@{OnOverlapBegin}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{OnOverlapBegin()}{OnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Level\+Transition\+Volume\+::\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 40 of file Level\+Transition\+Volume.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_a_level_transition_volume_a00889bdad0b0f940f2db3cb0adc0bf15_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_level_transition_volume_a00889bdad0b0f940f2db3cb0adc0bf15_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_level_transition_volume_ac6e4950000b45776c19de6f22068b8a2}\label{class_a_level_transition_volume_ac6e4950000b45776c19de6f22068b8a2}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!Tick@{Tick}}
+\index{Tick@{Tick}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Level\+Transition\+Volume\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 34 of file Level\+Transition\+Volume.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_level_transition_volume_aee5e3b2d07eb2206081f9701ff45159f}\label{class_a_level_transition_volume_aee5e3b2d07eb2206081f9701ff45159f}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!Billboard@{Billboard}}
+\index{Billboard@{Billboard}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{Billboard}{Billboard}}
+{\footnotesize\ttfamily class U\+Billboard\+Component$\ast$ A\+Level\+Transition\+Volume\+::\+Billboard}
+
+
+
+Definition at line 21 of file Level\+Transition\+Volume.\+h.
+
+\mbox{\Hypertarget{class_a_level_transition_volume_a28d94c229cd6c4fd0b79833494b25e07}\label{class_a_level_transition_volume_a28d94c229cd6c4fd0b79833494b25e07}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!TransitionLevelName@{TransitionLevelName}}
+\index{TransitionLevelName@{TransitionLevelName}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{TransitionLevelName}{TransitionLevelName}}
+{\footnotesize\ttfamily F\+Name A\+Level\+Transition\+Volume\+::\+Transition\+Level\+Name}
+
+
+
+Definition at line 24 of file Level\+Transition\+Volume.\+h.
+
+\mbox{\Hypertarget{class_a_level_transition_volume_af329aabab70a6ce561e79c4e30c33574}\label{class_a_level_transition_volume_af329aabab70a6ce561e79c4e30c33574}} 
+\index{ALevelTransitionVolume@{ALevelTransitionVolume}!TransitionVolume@{TransitionVolume}}
+\index{TransitionVolume@{TransitionVolume}!ALevelTransitionVolume@{ALevelTransitionVolume}}
+\doxysubsubsection{\texorpdfstring{TransitionVolume}{TransitionVolume}}
+{\footnotesize\ttfamily class U\+Box\+Component$\ast$ A\+Level\+Transition\+Volume\+::\+Transition\+Volume}
+
+
+
+Definition at line 19 of file Level\+Transition\+Volume.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_level_transition_volume_8h}{Level\+Transition\+Volume.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_level_transition_volume_8cpp}{Level\+Transition\+Volume.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="AItem" name="AItem">
+<area shape="rect" id="node1" title=" " alt="" coords="123,80,179,107"/>
+<area shape="rect" id="node3" href="$class_a_explosive.html" title=" " alt="" coords="5,155,92,181"/>
+<area shape="rect" id="node4" href="$class_a_pickup.html" title=" " alt="" coords="116,155,187,181"/>
+<area shape="rect" id="node5" href="$class_a_weapon.html" title=" " alt="" coords="211,155,289,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="120,5,183,32"/>
+</map>

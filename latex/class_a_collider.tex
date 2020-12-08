@@ -1,0 +1,273 @@
+\hypertarget{class_a_collider}{}\doxysection{A\+Collider Class Reference}
+\label{class_a_collider}\index{ACollider@{ACollider}}
+
+
+{\ttfamily \#include $<$Collider.\+h$>$}
+
+
+
+Inheritance diagram for A\+Collider\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{class_a_collider__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Collider\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{class_a_collider__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_collider_a646153cc4a8e4c84b72caab0e481f803}{A\+Collider}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_collider_a9c70171aca4e4a32a0549a8b71c4375b}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_collider_afe6dd53be568842fcdbebf9a571c6321}{Setup\+Player\+Input\+Component}} (class U\+Input\+Component $\ast$Player\+Input\+Component) override
+\item 
+virtual U\+Pawn\+Movement\+Component $\ast$ \mbox{\hyperlink{class_a_collider_af0acd188462a36649714daf6b77954b0}{Get\+Movement\+Component}} () const override
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_collider_aaf8e1275f4b77b5c08b4d9f822302093}{Get\+Mesh\+Component}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_collider_a0cbdf59d7534a6669e92a40d4ed00bda}{Set\+Mesh\+Component}} (U\+Static\+Mesh\+Component $\ast$Mesh)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_collider_a0793991d78e2d072579f990bb9fd647f}{Get\+Sphere\+Component}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_collider_ade827433b4518f731ae34ce35cc6fbf6}{Set\+Sphere\+Component}} (U\+Sphere\+Component $\ast$Sphere)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_collider_a2065a892794dc3e5a95fd056ddf8a6b3}{Get\+Camera\+Component}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_collider_ac5c39b9ce3c2065fdd1b26c2d535606b}{Set\+Camera\+Component}} (U\+Camera\+Component $\ast$In\+Camera)
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Spring\+Arm\+Component $\ast$ \mbox{\hyperlink{class_a_collider_aa7a3c55650fb0a34f3b1234673870f3b}{Get\+Spring\+Arm\+Component}} ()
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{class_a_collider_a9ed251fe40b85ccf4b2f6fbc5d275eff}{Set\+Spring\+Arm\+Component}} (U\+Spring\+Arm\+Component $\ast$In\+Spring\+Arm)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_collider_ae3959b0e0c58f5c254504fb28e7d1497}{Mesh\+Component}}
+\item 
+class U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_collider_a61883e2f4f8100748a90be5f003e9be1}{Sphere\+Component}}
+\item 
+class U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_collider_a974e41191949e0d04bd7939c536b86da}{Camera}}
+\item 
+class U\+Spring\+Arm\+Component $\ast$ \mbox{\hyperlink{class_a_collider_ab70df24e8c14c282b5343f368a18f9e0}{Spring\+Arm}}
+\item 
+class \mbox{\hyperlink{class_u_collider_movement_component}{U\+Collider\+Movement\+Component}} $\ast$ \mbox{\hyperlink{class_a_collider_a400c881b09da7341dd1e95f050f0990c}{Our\+Movement\+Component}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_collider_a737440f3c59f51acb53abbd8275477b5}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Collider.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_collider_a646153cc4a8e4c84b72caab0e481f803}\label{class_a_collider_a646153cc4a8e4c84b72caab0e481f803}} 
+\index{ACollider@{ACollider}!ACollider@{ACollider}}
+\index{ACollider@{ACollider}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{ACollider()}{ACollider()}}
+{\footnotesize\ttfamily A\+Collider\+::\+A\+Collider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 14 of file Collider.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_collider_a737440f3c59f51acb53abbd8275477b5}\label{class_a_collider_a737440f3c59f51acb53abbd8275477b5}} 
+\index{ACollider@{ACollider}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Collider\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 58 of file Collider.\+cpp.
+
+\mbox{\Hypertarget{class_a_collider_a2065a892794dc3e5a95fd056ddf8a6b3}\label{class_a_collider_a2065a892794dc3e5a95fd056ddf8a6b3}} 
+\index{ACollider@{ACollider}!GetCameraComponent@{GetCameraComponent}}
+\index{GetCameraComponent@{GetCameraComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{GetCameraComponent()}{GetCameraComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Camera\+Component$\ast$ A\+Collider\+::\+Get\+Camera\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 51 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_aaf8e1275f4b77b5c08b4d9f822302093}\label{class_a_collider_aaf8e1275f4b77b5c08b4d9f822302093}} 
+\index{ACollider@{ACollider}!GetMeshComponent@{GetMeshComponent}}
+\index{GetMeshComponent@{GetMeshComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{GetMeshComponent()}{GetMeshComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Static\+Mesh\+Component$\ast$ A\+Collider\+::\+Get\+Mesh\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 46 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_af0acd188462a36649714daf6b77954b0}\label{class_a_collider_af0acd188462a36649714daf6b77954b0}} 
+\index{ACollider@{ACollider}!GetMovementComponent@{GetMovementComponent}}
+\index{GetMovementComponent@{GetMovementComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{GetMovementComponent()}{GetMovementComponent()}}
+{\footnotesize\ttfamily U\+Pawn\+Movement\+Component $\ast$ A\+Collider\+::\+Get\+Movement\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 122 of file Collider.\+cpp.
+
+\mbox{\Hypertarget{class_a_collider_a0793991d78e2d072579f990bb9fd647f}\label{class_a_collider_a0793991d78e2d072579f990bb9fd647f}} 
+\index{ACollider@{ACollider}!GetSphereComponent@{GetSphereComponent}}
+\index{GetSphereComponent@{GetSphereComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{GetSphereComponent()}{GetSphereComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Sphere\+Component$\ast$ A\+Collider\+::\+Get\+Sphere\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 48 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_aa7a3c55650fb0a34f3b1234673870f3b}\label{class_a_collider_aa7a3c55650fb0a34f3b1234673870f3b}} 
+\index{ACollider@{ACollider}!GetSpringArmComponent@{GetSpringArmComponent}}
+\index{GetSpringArmComponent@{GetSpringArmComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{GetSpringArmComponent()}{GetSpringArmComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE U\+Spring\+Arm\+Component$\ast$ A\+Collider\+::\+Get\+Spring\+Arm\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 53 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_ac5c39b9ce3c2065fdd1b26c2d535606b}\label{class_a_collider_ac5c39b9ce3c2065fdd1b26c2d535606b}} 
+\index{ACollider@{ACollider}!SetCameraComponent@{SetCameraComponent}}
+\index{SetCameraComponent@{SetCameraComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SetCameraComponent()}{SetCameraComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Collider\+::\+Set\+Camera\+Component (\begin{DoxyParamCaption}\item[{U\+Camera\+Component $\ast$}]{In\+Camera }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 52 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_a0cbdf59d7534a6669e92a40d4ed00bda}\label{class_a_collider_a0cbdf59d7534a6669e92a40d4ed00bda}} 
+\index{ACollider@{ACollider}!SetMeshComponent@{SetMeshComponent}}
+\index{SetMeshComponent@{SetMeshComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SetMeshComponent()}{SetMeshComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Collider\+::\+Set\+Mesh\+Component (\begin{DoxyParamCaption}\item[{U\+Static\+Mesh\+Component $\ast$}]{Mesh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 47 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_ade827433b4518f731ae34ce35cc6fbf6}\label{class_a_collider_ade827433b4518f731ae34ce35cc6fbf6}} 
+\index{ACollider@{ACollider}!SetSphereComponent@{SetSphereComponent}}
+\index{SetSphereComponent@{SetSphereComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SetSphereComponent()}{SetSphereComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Collider\+::\+Set\+Sphere\+Component (\begin{DoxyParamCaption}\item[{U\+Sphere\+Component $\ast$}]{Sphere }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 49 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_a9ed251fe40b85ccf4b2f6fbc5d275eff}\label{class_a_collider_a9ed251fe40b85ccf4b2f6fbc5d275eff}} 
+\index{ACollider@{ACollider}!SetSpringArmComponent@{SetSpringArmComponent}}
+\index{SetSpringArmComponent@{SetSpringArmComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SetSpringArmComponent()}{SetSpringArmComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void A\+Collider\+::\+Set\+Spring\+Arm\+Component (\begin{DoxyParamCaption}\item[{U\+Spring\+Arm\+Component $\ast$}]{In\+Spring\+Arm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 54 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_afe6dd53be568842fcdbebf9a571c6321}\label{class_a_collider_afe6dd53be568842fcdbebf9a571c6321}} 
+\index{ACollider@{ACollider}!SetupPlayerInputComponent@{SetupPlayerInputComponent}}
+\index{SetupPlayerInputComponent@{SetupPlayerInputComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SetupPlayerInputComponent()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void A\+Collider\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class U\+Input\+Component $\ast$}]{Player\+Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 81 of file Collider.\+cpp.
+
+\mbox{\Hypertarget{class_a_collider_a9c70171aca4e4a32a0549a8b71c4375b}\label{class_a_collider_a9c70171aca4e4a32a0549a8b71c4375b}} 
+\index{ACollider@{ACollider}!Tick@{Tick}}
+\index{Tick@{Tick}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Collider\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 65 of file Collider.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_collider_a974e41191949e0d04bd7939c536b86da}\label{class_a_collider_a974e41191949e0d04bd7939c536b86da}} 
+\index{ACollider@{ACollider}!Camera@{Camera}}
+\index{Camera@{Camera}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{Camera}{Camera}}
+{\footnotesize\ttfamily class U\+Camera\+Component$\ast$ A\+Collider\+::\+Camera}
+
+
+
+Definition at line 36 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_ae3959b0e0c58f5c254504fb28e7d1497}\label{class_a_collider_ae3959b0e0c58f5c254504fb28e7d1497}} 
+\index{ACollider@{ACollider}!MeshComponent@{MeshComponent}}
+\index{MeshComponent@{MeshComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{MeshComponent}{MeshComponent}}
+{\footnotesize\ttfamily class U\+Static\+Mesh\+Component$\ast$ A\+Collider\+::\+Mesh\+Component}
+
+
+
+Definition at line 30 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_a400c881b09da7341dd1e95f050f0990c}\label{class_a_collider_a400c881b09da7341dd1e95f050f0990c}} 
+\index{ACollider@{ACollider}!OurMovementComponent@{OurMovementComponent}}
+\index{OurMovementComponent@{OurMovementComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{OurMovementComponent}{OurMovementComponent}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_u_collider_movement_component}{U\+Collider\+Movement\+Component}}$\ast$ A\+Collider\+::\+Our\+Movement\+Component}
+
+
+
+Definition at line 42 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_a61883e2f4f8100748a90be5f003e9be1}\label{class_a_collider_a61883e2f4f8100748a90be5f003e9be1}} 
+\index{ACollider@{ACollider}!SphereComponent@{SphereComponent}}
+\index{SphereComponent@{SphereComponent}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SphereComponent}{SphereComponent}}
+{\footnotesize\ttfamily class U\+Sphere\+Component$\ast$ A\+Collider\+::\+Sphere\+Component}
+
+
+
+Definition at line 33 of file Collider.\+h.
+
+\mbox{\Hypertarget{class_a_collider_ab70df24e8c14c282b5343f368a18f9e0}\label{class_a_collider_ab70df24e8c14c282b5343f368a18f9e0}} 
+\index{ACollider@{ACollider}!SpringArm@{SpringArm}}
+\index{SpringArm@{SpringArm}!ACollider@{ACollider}}
+\doxysubsubsection{\texorpdfstring{SpringArm}{SpringArm}}
+{\footnotesize\ttfamily class U\+Spring\+Arm\+Component$\ast$ A\+Collider\+::\+Spring\+Arm}
+
+
+
+Definition at line 39 of file Collider.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_collider_8h}{Collider.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_collider_8cpp}{Collider.\+cpp}}\end{DoxyCompactItemize}

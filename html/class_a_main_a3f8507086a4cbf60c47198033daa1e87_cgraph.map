@@ -1,0 +1,9 @@
+<map id="AMain::BeginPlay" name="AMain::BeginPlay">
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,132,69"/>
+<area shape="rect" id="node2" href="$class_a_main_player_controller.html#aa3dbae8092aaceed22629e1e152ac21c" title=" " alt="" coords="197,5,348,47"/>
+<area shape="rect" id="node3" href="$class_a_main.html#a019a6093af6f369a9fea2579ee643711" title=" " alt="" coords="180,71,365,98"/>
+<area shape="rect" id="node4" href="$class_a_weapon.html#a81a33ce5a307e3b6ea5d8577c6d37887" title=" " alt="" coords="413,71,533,98"/>
+<area shape="rect" id="node5" href="$class_a_main.html#a9bfb51d80e90ea2a8c199859bd49f7d8" title=" " alt="" coords="581,21,796,47"/>
+<area shape="rect" id="node6" href="$class_a_main.html#a7297829b0f75582a86098bdde26c8dd0" title=" " alt="" coords="594,71,783,98"/>
+<area shape="rect" id="node7" href="$class_a_weapon.html#a8aaf92fef31840b61defc158aa3f0873" title=" " alt="" coords="609,122,769,149"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="AFloorSwitch::BeginPlay" name="AFloorSwitch::BeginPlay">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,172,123"/>
+<area shape="rect" id="node2" href="$class_a_floor_switch.html#a51a9fc3cba0db71d390ea1544443e18f" title=" " alt="" coords="220,71,420,98"/>
+<area shape="rect" id="node5" href="$class_a_floor_switch.html#a301d69a405c96d63b5b7a5b6f4f3cad6" title=" " alt="" coords="225,122,415,149"/>
+<area shape="rect" id="node3" href="$class_a_floor_switch.html#a6e787d813256491db6e491535f6ed0ab" title=" " alt="" coords="468,5,639,47"/>
+<area shape="rect" id="node4" href="$class_a_floor_switch.html#a92c8880b848a4bcfe03f8de7d23bd976" title=" " alt="" coords="470,71,637,98"/>
+<area shape="rect" id="node6" href="$class_a_floor_switch.html#a2cd506afc6758d7defbdd06184281c4f" title=" " alt="" coords="470,122,637,149"/>
+<area shape="rect" id="node7" href="$class_a_floor_switch.html#a56c83270e3532b5dad80ad1e41f4f17c" title=" " alt="" coords="687,93,855,119"/>
+<area shape="rect" id="node8" href="$class_a_floor_switch.html#a7db090515ff9f25c272818b5456aef48" title=" " alt="" coords="687,144,856,185"/>
+</map>

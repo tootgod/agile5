@@ -1,0 +1,9 @@
+<map id="AEnemy::GetEnemyMovementStatus" name="AEnemy::GetEnemyMovementStatus">
+<area shape="rect" id="node1" title=" " alt="" coords="877,64,1079,105"/>
+<area shape="rect" id="node2" href="$class_a_enemy.html#ac2be49e324e29beb948fb01f2fd13307" title=" " alt="" coords="723,71,829,98"/>
+<area shape="rect" id="node3" href="$class_a_enemy.html#a85315abde28ec72593914668d4b406c8" title=" " alt="" coords="467,5,675,47"/>
+<area shape="rect" id="node5" href="$class_a_enemy.html#ac718bcc29f94cf528ad5346fb7e3f6c0" title=" " alt="" coords="511,71,630,98"/>
+<area shape="rect" id="node7" href="$class_a_enemy.html#a43c4f84458a05f607ada9578d7ad94d8" title=" " alt="" coords="192,115,419,156"/>
+<area shape="rect" id="node4" href="$class_a_enemy.html#abd845c5787bc005ae01686635f7f3fba" title=" " alt="" coords="5,67,144,94"/>
+<area shape="rect" id="node6" href="$class_a_enemy.html#aab7071e982bc55a693bcff90ae899769" title=" " alt="" coords="235,63,376,90"/>
+</map>

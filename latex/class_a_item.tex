@@ -1,0 +1,238 @@
+\hypertarget{class_a_item}{}\doxysection{A\+Item Class Reference}
+\label{class_a_item}\index{AItem@{AItem}}
+
+
+{\ttfamily \#include $<$Item.\+h$>$}
+
+
+
+Inheritance diagram for A\+Item\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{class_a_item__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Item\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_a_item__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_item_a8650f2d2897644f787e593d09643baf2}{A\+Item}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_item_aeaf3d6dcb16d74ed8699a5d84bc48017}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e}{On\+Overlap\+Begin}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+virtual void \mbox{\hyperlink{class_a_item_aee761c5bf5e3d886a232608d08930c6d}{On\+Overlap\+End}} (U\+Primitive\+Component $\ast$Overlapped\+Component, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_item_ae49d69e9369eb4ba2d0942c8b2e971a2}{Collision\+Volume}}
+\item 
+class U\+Static\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_item_ade10b4089de52f75ec3ba99a6a93b44c}{Mesh}}
+\item 
+class U\+Particle\+System\+Component $\ast$ \mbox{\hyperlink{class_a_item_a2c72e58aacb17a79005129238a0d73df}{Idle\+Particles\+Component}}
+\item 
+class U\+Particle\+System $\ast$ \mbox{\hyperlink{class_a_item_ac33ed44d0ebad6123efb24e139e1f054}{Overlap\+Particles}}
+\item 
+class U\+Sound\+Cue $\ast$ \mbox{\hyperlink{class_a_item_a83a6e26e8cd29b6abef2ec058e06e02a}{Overlap\+Sound}}
+\item 
+bool \mbox{\hyperlink{class_a_item_a8598303b6b1265eb40ea28d3be40af64}{b\+Rotate}}
+\item 
+float \mbox{\hyperlink{class_a_item_a3b693326993a9788499757b4d1df5726}{Rotation\+Rate}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_item_ab11b1af717ab700069f202507d36b5c4}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Item.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_item_a8650f2d2897644f787e593d09643baf2}\label{class_a_item_a8650f2d2897644f787e593d09643baf2}} 
+\index{AItem@{AItem}!AItem@{AItem}}
+\index{AItem@{AItem}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{AItem()}{AItem()}}
+{\footnotesize\ttfamily A\+Item\+::\+A\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Item.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_item_ab11b1af717ab700069f202507d36b5c4}\label{class_a_item_ab11b1af717ab700069f202507d36b5c4}} 
+\index{AItem@{AItem}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Item\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_a_weapon_ac7b8b5af7789df37243bd2391829d906}{A\+Weapon}}.
+
+
+
+Definition at line 29 of file Item.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_a_item_ab11b1af717ab700069f202507d36b5c4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e}\label{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e}} 
+\index{AItem@{AItem}!OnOverlapBegin@{OnOverlapBegin}}
+\index{OnOverlapBegin@{OnOverlapBegin}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{OnOverlapBegin()}{OnOverlapBegin()}}
+{\footnotesize\ttfamily void A\+Item\+::\+On\+Overlap\+Begin (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index,  }\item[{bool}]{b\+From\+Sweep,  }\item[{const F\+Hit\+Result \&}]{Sweep\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_a_weapon_a84f2d5def6cbae4f8719fb3a1074a5b0}{A\+Weapon}}, \mbox{\hyperlink{class_a_pickup_a4ed2f6b6b854f6f238b06b8ab294d22c}{A\+Pickup}}, and \mbox{\hyperlink{class_a_explosive_a3790cf707996d3dc25d4d39c9e78bc94}{A\+Explosive}}.
+
+
+
+Definition at line 50 of file Item.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_a_item_a67f36ddfc6ce1655b26a1af62fe08c3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_item_aee761c5bf5e3d886a232608d08930c6d}\label{class_a_item_aee761c5bf5e3d886a232608d08930c6d}} 
+\index{AItem@{AItem}!OnOverlapEnd@{OnOverlapEnd}}
+\index{OnOverlapEnd@{OnOverlapEnd}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{OnOverlapEnd()}{OnOverlapEnd()}}
+{\footnotesize\ttfamily void A\+Item\+::\+On\+Overlap\+End (\begin{DoxyParamCaption}\item[{U\+Primitive\+Component $\ast$}]{Overlapped\+Component,  }\item[{A\+Actor $\ast$}]{Other\+Actor,  }\item[{U\+Primitive\+Component $\ast$}]{Other\+Comp,  }\item[{int32}]{Other\+Body\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_a_weapon_ace6f4c9a1ef8f4672828cffe731d8922}{A\+Weapon}}, \mbox{\hyperlink{class_a_pickup_acf16c05200e43450b93b2fab3ee668ae}{A\+Pickup}}, and \mbox{\hyperlink{class_a_explosive_aa19500d513be3b32754c3d9acea498d3}{A\+Explosive}}.
+
+
+
+Definition at line 55 of file Item.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_a_item_aee761c5bf5e3d886a232608d08930c6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_item_aeaf3d6dcb16d74ed8699a5d84bc48017}\label{class_a_item_aeaf3d6dcb16d74ed8699a5d84bc48017}} 
+\index{AItem@{AItem}!Tick@{Tick}}
+\index{Tick@{Tick}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Item\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 38 of file Item.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_item_a8598303b6b1265eb40ea28d3be40af64}\label{class_a_item_a8598303b6b1265eb40ea28d3be40af64}} 
+\index{AItem@{AItem}!bRotate@{bRotate}}
+\index{bRotate@{bRotate}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{bRotate}{bRotate}}
+{\footnotesize\ttfamily bool A\+Item\+::b\+Rotate}
+
+
+
+Definition at line 36 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_ae49d69e9369eb4ba2d0942c8b2e971a2}\label{class_a_item_ae49d69e9369eb4ba2d0942c8b2e971a2}} 
+\index{AItem@{AItem}!CollisionVolume@{CollisionVolume}}
+\index{CollisionVolume@{CollisionVolume}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{CollisionVolume}{CollisionVolume}}
+{\footnotesize\ttfamily class U\+Sphere\+Component$\ast$ A\+Item\+::\+Collision\+Volume}
+
+Base shape collision ~\newline
+ 
+
+Definition at line 20 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_a2c72e58aacb17a79005129238a0d73df}\label{class_a_item_a2c72e58aacb17a79005129238a0d73df}} 
+\index{AItem@{AItem}!IdleParticlesComponent@{IdleParticlesComponent}}
+\index{IdleParticlesComponent@{IdleParticlesComponent}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{IdleParticlesComponent}{IdleParticlesComponent}}
+{\footnotesize\ttfamily class U\+Particle\+System\+Component$\ast$ A\+Item\+::\+Idle\+Particles\+Component}
+
+
+
+Definition at line 27 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_ade10b4089de52f75ec3ba99a6a93b44c}\label{class_a_item_ade10b4089de52f75ec3ba99a6a93b44c}} 
+\index{AItem@{AItem}!Mesh@{Mesh}}
+\index{Mesh@{Mesh}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{Mesh}{Mesh}}
+{\footnotesize\ttfamily class U\+Static\+Mesh\+Component$\ast$ A\+Item\+::\+Mesh}
+
+Base Mesh Component 
+
+Definition at line 24 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_ac33ed44d0ebad6123efb24e139e1f054}\label{class_a_item_ac33ed44d0ebad6123efb24e139e1f054}} 
+\index{AItem@{AItem}!OverlapParticles@{OverlapParticles}}
+\index{OverlapParticles@{OverlapParticles}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{OverlapParticles}{OverlapParticles}}
+{\footnotesize\ttfamily class U\+Particle\+System$\ast$ A\+Item\+::\+Overlap\+Particles}
+
+
+
+Definition at line 30 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_a83a6e26e8cd29b6abef2ec058e06e02a}\label{class_a_item_a83a6e26e8cd29b6abef2ec058e06e02a}} 
+\index{AItem@{AItem}!OverlapSound@{OverlapSound}}
+\index{OverlapSound@{OverlapSound}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{OverlapSound}{OverlapSound}}
+{\footnotesize\ttfamily class U\+Sound\+Cue$\ast$ A\+Item\+::\+Overlap\+Sound}
+
+
+
+Definition at line 33 of file Item.\+h.
+
+\mbox{\Hypertarget{class_a_item_a3b693326993a9788499757b4d1df5726}\label{class_a_item_a3b693326993a9788499757b4d1df5726}} 
+\index{AItem@{AItem}!RotationRate@{RotationRate}}
+\index{RotationRate@{RotationRate}!AItem@{AItem}}
+\doxysubsubsection{\texorpdfstring{RotationRate}{RotationRate}}
+{\footnotesize\ttfamily float A\+Item\+::\+Rotation\+Rate}
+
+
+
+Definition at line 39 of file Item.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_item_8h}{Item.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_item_8cpp}{Item.\+cpp}}\end{DoxyCompactItemize}

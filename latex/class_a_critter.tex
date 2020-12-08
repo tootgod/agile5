@@ -1,0 +1,165 @@
+\hypertarget{class_a_critter}{}\doxysection{A\+Critter Class Reference}
+\label{class_a_critter}\index{ACritter@{ACritter}}
+
+
+{\ttfamily \#include $<$Critter.\+h$>$}
+
+
+
+Inheritance diagram for A\+Critter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=130pt]{class_a_critter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Critter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=130pt]{class_a_critter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_critter_a3f0746409416e99b40add0506f1bcf23}{A\+Critter}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_critter_a7b65339a7707b1b0ede457a79f0a505d}{Tick}} (float Delta\+Time) override
+\item 
+virtual void \mbox{\hyperlink{class_a_critter_a6137c526f97c0d8f41847ab030d51761}{Setup\+Player\+Input\+Component}} (class U\+Input\+Component $\ast$Player\+Input\+Component) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+class U\+Skeletal\+Mesh\+Component $\ast$ \mbox{\hyperlink{class_a_critter_af17759cfbd31d357e044b31bab4baf6d}{Mesh\+Component}}
+\item 
+class U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_critter_a0fe7717557cc679d0bf4f087c0e8217f}{Camera}}
+\item 
+float \mbox{\hyperlink{class_a_critter_a776b6f609f101a6c4dc2e82b032852f9}{Max\+Speed}}
+\item 
+T\+Subclass\+Of$<$ class \mbox{\hyperlink{class_a_weapon}{A\+Weapon}} $>$ \mbox{\hyperlink{class_a_critter_a850992edc08b6cf4c921365c5368da3f}{Weapon}}
+\item 
+T\+Array$<$ U\+Class $\ast$ $>$ \mbox{\hyperlink{class_a_critter_a44a8411b40f70cf6bf087f9a61b466bb}{Weapon\+Array}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_critter_ad9facab647a079a3a221ffac3704e70b}{Begin\+Play}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 10 of file Critter.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_critter_a3f0746409416e99b40add0506f1bcf23}\label{class_a_critter_a3f0746409416e99b40add0506f1bcf23}} 
+\index{ACritter@{ACritter}!ACritter@{ACritter}}
+\index{ACritter@{ACritter}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{ACritter()}{ACritter()}}
+{\footnotesize\ttfamily A\+Critter\+::\+A\+Critter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 11 of file Critter.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_critter_ad9facab647a079a3a221ffac3704e70b}\label{class_a_critter_ad9facab647a079a3a221ffac3704e70b}} 
+\index{ACritter@{ACritter}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Critter\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 34 of file Critter.\+cpp.
+
+\mbox{\Hypertarget{class_a_critter_a6137c526f97c0d8f41847ab030d51761}\label{class_a_critter_a6137c526f97c0d8f41847ab030d51761}} 
+\index{ACritter@{ACritter}!SetupPlayerInputComponent@{SetupPlayerInputComponent}}
+\index{SetupPlayerInputComponent@{SetupPlayerInputComponent}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{SetupPlayerInputComponent()}{SetupPlayerInputComponent()}}
+{\footnotesize\ttfamily void A\+Critter\+::\+Setup\+Player\+Input\+Component (\begin{DoxyParamCaption}\item[{class U\+Input\+Component $\ast$}]{Player\+Input\+Component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 52 of file Critter.\+cpp.
+
+\mbox{\Hypertarget{class_a_critter_a7b65339a7707b1b0ede457a79f0a505d}\label{class_a_critter_a7b65339a7707b1b0ede457a79f0a505d}} 
+\index{ACritter@{ACritter}!Tick@{Tick}}
+\index{Tick@{Tick}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Critter\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 42 of file Critter.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_critter_a0fe7717557cc679d0bf4f087c0e8217f}\label{class_a_critter_a0fe7717557cc679d0bf4f087c0e8217f}} 
+\index{ACritter@{ACritter}!Camera@{Camera}}
+\index{Camera@{Camera}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{Camera}{Camera}}
+{\footnotesize\ttfamily class U\+Camera\+Component$\ast$ A\+Critter\+::\+Camera}
+
+
+
+Definition at line 33 of file Critter.\+h.
+
+\mbox{\Hypertarget{class_a_critter_a776b6f609f101a6c4dc2e82b032852f9}\label{class_a_critter_a776b6f609f101a6c4dc2e82b032852f9}} 
+\index{ACritter@{ACritter}!MaxSpeed@{MaxSpeed}}
+\index{MaxSpeed@{MaxSpeed}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{MaxSpeed}{MaxSpeed}}
+{\footnotesize\ttfamily float A\+Critter\+::\+Max\+Speed}
+
+
+
+Definition at line 36 of file Critter.\+h.
+
+\mbox{\Hypertarget{class_a_critter_af17759cfbd31d357e044b31bab4baf6d}\label{class_a_critter_af17759cfbd31d357e044b31bab4baf6d}} 
+\index{ACritter@{ACritter}!MeshComponent@{MeshComponent}}
+\index{MeshComponent@{MeshComponent}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{MeshComponent}{MeshComponent}}
+{\footnotesize\ttfamily class U\+Skeletal\+Mesh\+Component$\ast$ A\+Critter\+::\+Mesh\+Component}
+
+
+
+Definition at line 30 of file Critter.\+h.
+
+\mbox{\Hypertarget{class_a_critter_a850992edc08b6cf4c921365c5368da3f}\label{class_a_critter_a850992edc08b6cf4c921365c5368da3f}} 
+\index{ACritter@{ACritter}!Weapon@{Weapon}}
+\index{Weapon@{Weapon}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{Weapon}{Weapon}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$class \mbox{\hyperlink{class_a_weapon}{A\+Weapon}}$>$ A\+Critter\+::\+Weapon}
+
+
+
+Definition at line 39 of file Critter.\+h.
+
+\mbox{\Hypertarget{class_a_critter_a44a8411b40f70cf6bf087f9a61b466bb}\label{class_a_critter_a44a8411b40f70cf6bf087f9a61b466bb}} 
+\index{ACritter@{ACritter}!WeaponArray@{WeaponArray}}
+\index{WeaponArray@{WeaponArray}!ACritter@{ACritter}}
+\doxysubsubsection{\texorpdfstring{WeaponArray}{WeaponArray}}
+{\footnotesize\ttfamily T\+Array$<$U\+Class$\ast$$>$ A\+Critter\+::\+Weapon\+Array}
+
+
+
+Definition at line 42 of file Critter.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_critter_8h}{Critter.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_critter_8cpp}{Critter.\+cpp}}\end{DoxyCompactItemize}

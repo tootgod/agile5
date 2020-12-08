@@ -1,0 +1,5 @@
+<map id="AMainPlayerController::TogglePauseMenu" name="AMainPlayerController::TogglePauseMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="460,5,611,47"/>
+<area shape="rect" id="node2" href="$class_a_main.html#addc39baea875512a643be67c23f8f5ce" title=" " alt="" coords="285,13,412,39"/>
+<area shape="rect" id="node3" href="$class_a_main.html#ada4d032a18dffe2db4c7319e9a076de6" title=" " alt="" coords="5,13,237,39"/>
+</map>

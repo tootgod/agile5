@@ -1,0 +1,321 @@
+\hypertarget{class_a_main_player_controller}{}\doxysection{A\+Main\+Player\+Controller Class Reference}
+\label{class_a_main_player_controller}\index{AMainPlayerController@{AMainPlayerController}}
+
+
+{\ttfamily \#include $<$Main\+Player\+Controller.\+h$>$}
+
+
+
+Inheritance diagram for A\+Main\+Player\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_a_main_player_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+Main\+Player\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_a_main_player_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_main_player_controller_a23f464d06955b13abc75746fd047125f}{A\+Main\+Player\+Controller}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_a7f5fbb609a99b1d7eb584262cbea7337}{Display\+Enemy\+Health\+Bar}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_ac8b9dcf7a85b0f88639f930434660d92}{Remove\+Enemy\+Health\+Bar}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_a9d535c76d6a6f562e7fe30364fe05325}{Display\+Pause\+Menu}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_a5da1ca4a6441eb527d5e1a720feefc7d}{Remove\+Pause\+Menu}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_adc6ad409d74bdc11a2962b9536fe4e68}{Toggle\+Pause\+Menu}} ()
+\item 
+void \mbox{\hyperlink{class_a_main_player_controller_aa3dbae8092aaceed22629e1e152ac21c}{Game\+Mode\+Only}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T\+Subclass\+Of$<$ class U\+User\+Widget $>$ \mbox{\hyperlink{class_a_main_player_controller_ab489ff7e9b72370a99b4d2eb6d94297b}{H\+U\+D\+Overlay\+Asset}}
+\item 
+U\+User\+Widget $\ast$ \mbox{\hyperlink{class_a_main_player_controller_a1974e9ac04837771acea9d437d1067a8}{H\+U\+D\+Overlay}}
+\item 
+T\+Subclass\+Of$<$ U\+User\+Widget $>$ \mbox{\hyperlink{class_a_main_player_controller_a34a1ea9232a2aa3df3c17a6108b53b95}{W\+Enemy\+Health\+Bar}}
+\item 
+U\+User\+Widget $\ast$ \mbox{\hyperlink{class_a_main_player_controller_a31f85192352f356fcea62857c69f8090}{Enemy\+Health\+Bar}}
+\item 
+T\+Subclass\+Of$<$ U\+User\+Widget $>$ \mbox{\hyperlink{class_a_main_player_controller_aa388a67e0d5981b2adb39ef42687395f}{W\+Pause\+Menu}}
+\item 
+U\+User\+Widget $\ast$ \mbox{\hyperlink{class_a_main_player_controller_af5f3e56dfcccc54fa54f8b75a1321690}{Pause\+Menu}}
+\item 
+bool \mbox{\hyperlink{class_a_main_player_controller_a82aa86791446e79908085eb06ae708d8}{b\+Enemy\+Health\+Bar\+Visible}}
+\item 
+bool \mbox{\hyperlink{class_a_main_player_controller_afc0d5d4ecd47ef4f568a19175989c60a}{b\+Pause\+Menu\+Open}}
+\item 
+F\+Vector \mbox{\hyperlink{class_a_main_player_controller_a6da7e5af858b52c23047fc057e708fb7}{Enemy\+Location}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_main_player_controller_a76495cc8255b6cb0871e8baf2a0acb25}{Begin\+Play}} () override
+\item 
+virtual void \mbox{\hyperlink{class_a_main_player_controller_a5d195fb5ebf33b665c8a7d24f8ca2be4}{Tick}} (float Delta\+Time) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Main\+Player\+Controller.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_main_player_controller_a23f464d06955b13abc75746fd047125f}\label{class_a_main_player_controller_a23f464d06955b13abc75746fd047125f}} 
+\index{AMainPlayerController@{AMainPlayerController}!AMainPlayerController@{AMainPlayerController}}
+\index{AMainPlayerController@{AMainPlayerController}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{AMainPlayerController()}{AMainPlayerController()}}
+{\footnotesize\ttfamily A\+Main\+Player\+Controller\+::\+A\+Main\+Player\+Controller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file Main\+Player\+Controller.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_main_player_controller_a76495cc8255b6cb0871e8baf2a0acb25}\label{class_a_main_player_controller_a76495cc8255b6cb0871e8baf2a0acb25}} 
+\index{AMainPlayerController@{AMainPlayerController}!BeginPlay@{BeginPlay}}
+\index{BeginPlay@{BeginPlay}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{BeginPlay()}{BeginPlay()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Begin\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 11 of file Main\+Player\+Controller.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_player_controller_a7f5fbb609a99b1d7eb584262cbea7337}\label{class_a_main_player_controller_a7f5fbb609a99b1d7eb584262cbea7337}} 
+\index{AMainPlayerController@{AMainPlayerController}!DisplayEnemyHealthBar@{DisplayEnemyHealthBar}}
+\index{DisplayEnemyHealthBar@{DisplayEnemyHealthBar}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{DisplayEnemyHealthBar()}{DisplayEnemyHealthBar()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Display\+Enemy\+Health\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 45 of file Main\+Player\+Controller.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_player_controller_a7f5fbb609a99b1d7eb584262cbea7337_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_player_controller_a9d535c76d6a6f562e7fe30364fe05325}\label{class_a_main_player_controller_a9d535c76d6a6f562e7fe30364fe05325}} 
+\index{AMainPlayerController@{AMainPlayerController}!DisplayPauseMenu@{DisplayPauseMenu}}
+\index{DisplayPauseMenu@{DisplayPauseMenu}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{DisplayPauseMenu()}{DisplayPauseMenu()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Display\+Pause\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_player_controller_a9d535c76d6a6f562e7fe30364fe05325_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_player_controller_aa3dbae8092aaceed22629e1e152ac21c}\label{class_a_main_player_controller_aa3dbae8092aaceed22629e1e152ac21c}} 
+\index{AMainPlayerController@{AMainPlayerController}!GameModeOnly@{GameModeOnly}}
+\index{GameModeOnly@{GameModeOnly}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{GameModeOnly()}{GameModeOnly()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Game\+Mode\+Only (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 110 of file Main\+Player\+Controller.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_a_main_player_controller_aa3dbae8092aaceed22629e1e152ac21c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_player_controller_ac8b9dcf7a85b0f88639f930434660d92}\label{class_a_main_player_controller_ac8b9dcf7a85b0f88639f930434660d92}} 
+\index{AMainPlayerController@{AMainPlayerController}!RemoveEnemyHealthBar@{RemoveEnemyHealthBar}}
+\index{RemoveEnemyHealthBar@{RemoveEnemyHealthBar}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{RemoveEnemyHealthBar()}{RemoveEnemyHealthBar()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Remove\+Enemy\+Health\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file Main\+Player\+Controller.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_player_controller_ac8b9dcf7a85b0f88639f930434660d92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_player_controller_a5da1ca4a6441eb527d5e1a720feefc7d}\label{class_a_main_player_controller_a5da1ca4a6441eb527d5e1a720feefc7d}} 
+\index{AMainPlayerController@{AMainPlayerController}!RemovePauseMenu@{RemovePauseMenu}}
+\index{RemovePauseMenu@{RemovePauseMenu}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{RemovePauseMenu()}{RemovePauseMenu()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Remove\+Pause\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_player_controller_a5da1ca4a6441eb527d5e1a720feefc7d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_a_main_player_controller_a5d195fb5ebf33b665c8a7d24f8ca2be4}\label{class_a_main_player_controller_a5d195fb5ebf33b665c8a7d24f8ca2be4}} 
+\index{AMainPlayerController@{AMainPlayerController}!Tick@{Tick}}
+\index{Tick@{Tick}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{Tick()}{Tick()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Tick (\begin{DoxyParamCaption}\item[{float}]{Delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 63 of file Main\+Player\+Controller.\+cpp.
+
+\mbox{\Hypertarget{class_a_main_player_controller_adc6ad409d74bdc11a2962b9536fe4e68}\label{class_a_main_player_controller_adc6ad409d74bdc11a2962b9536fe4e68}} 
+\index{AMainPlayerController@{AMainPlayerController}!TogglePauseMenu@{TogglePauseMenu}}
+\index{TogglePauseMenu@{TogglePauseMenu}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{TogglePauseMenu()}{TogglePauseMenu()}}
+{\footnotesize\ttfamily void A\+Main\+Player\+Controller\+::\+Toggle\+Pause\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 98 of file Main\+Player\+Controller.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_a_main_player_controller_adc6ad409d74bdc11a2962b9536fe4e68_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_main_player_controller_adc6ad409d74bdc11a2962b9536fe4e68_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_main_player_controller_a82aa86791446e79908085eb06ae708d8}\label{class_a_main_player_controller_a82aa86791446e79908085eb06ae708d8}} 
+\index{AMainPlayerController@{AMainPlayerController}!bEnemyHealthBarVisible@{bEnemyHealthBarVisible}}
+\index{bEnemyHealthBarVisible@{bEnemyHealthBarVisible}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{bEnemyHealthBarVisible}{bEnemyHealthBarVisible}}
+{\footnotesize\ttfamily bool A\+Main\+Player\+Controller\+::b\+Enemy\+Health\+Bar\+Visible}
+
+
+
+Definition at line 40 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_afc0d5d4ecd47ef4f568a19175989c60a}\label{class_a_main_player_controller_afc0d5d4ecd47ef4f568a19175989c60a}} 
+\index{AMainPlayerController@{AMainPlayerController}!bPauseMenuOpen@{bPauseMenuOpen}}
+\index{bPauseMenuOpen@{bPauseMenuOpen}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{bPauseMenuOpen}{bPauseMenuOpen}}
+{\footnotesize\ttfamily bool A\+Main\+Player\+Controller\+::b\+Pause\+Menu\+Open}
+
+
+
+Definition at line 55 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_a31f85192352f356fcea62857c69f8090}\label{class_a_main_player_controller_a31f85192352f356fcea62857c69f8090}} 
+\index{AMainPlayerController@{AMainPlayerController}!EnemyHealthBar@{EnemyHealthBar}}
+\index{EnemyHealthBar@{EnemyHealthBar}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{EnemyHealthBar}{EnemyHealthBar}}
+{\footnotesize\ttfamily U\+User\+Widget$\ast$ A\+Main\+Player\+Controller\+::\+Enemy\+Health\+Bar}
+
+
+
+Definition at line 32 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_a6da7e5af858b52c23047fc057e708fb7}\label{class_a_main_player_controller_a6da7e5af858b52c23047fc057e708fb7}} 
+\index{AMainPlayerController@{AMainPlayerController}!EnemyLocation@{EnemyLocation}}
+\index{EnemyLocation@{EnemyLocation}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{EnemyLocation}{EnemyLocation}}
+{\footnotesize\ttfamily F\+Vector A\+Main\+Player\+Controller\+::\+Enemy\+Location}
+
+
+
+Definition at line 57 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_a1974e9ac04837771acea9d437d1067a8}\label{class_a_main_player_controller_a1974e9ac04837771acea9d437d1067a8}} 
+\index{AMainPlayerController@{AMainPlayerController}!HUDOverlay@{HUDOverlay}}
+\index{HUDOverlay@{HUDOverlay}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{HUDOverlay}{HUDOverlay}}
+{\footnotesize\ttfamily U\+User\+Widget$\ast$ A\+Main\+Player\+Controller\+::\+H\+U\+D\+Overlay}
+
+Variable to hold the widget after creating it 
+
+Definition at line 26 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_ab489ff7e9b72370a99b4d2eb6d94297b}\label{class_a_main_player_controller_ab489ff7e9b72370a99b4d2eb6d94297b}} 
+\index{AMainPlayerController@{AMainPlayerController}!HUDOverlayAsset@{HUDOverlayAsset}}
+\index{HUDOverlayAsset@{HUDOverlayAsset}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{HUDOverlayAsset}{HUDOverlayAsset}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$class U\+User\+Widget$>$ A\+Main\+Player\+Controller\+::\+H\+U\+D\+Overlay\+Asset}
+
+Reference to the U\+MG asset in the editor 
+
+Definition at line 22 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_af5f3e56dfcccc54fa54f8b75a1321690}\label{class_a_main_player_controller_af5f3e56dfcccc54fa54f8b75a1321690}} 
+\index{AMainPlayerController@{AMainPlayerController}!PauseMenu@{PauseMenu}}
+\index{PauseMenu@{PauseMenu}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{PauseMenu}{PauseMenu}}
+{\footnotesize\ttfamily U\+User\+Widget$\ast$ A\+Main\+Player\+Controller\+::\+Pause\+Menu}
+
+
+
+Definition at line 38 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_a34a1ea9232a2aa3df3c17a6108b53b95}\label{class_a_main_player_controller_a34a1ea9232a2aa3df3c17a6108b53b95}} 
+\index{AMainPlayerController@{AMainPlayerController}!WEnemyHealthBar@{WEnemyHealthBar}}
+\index{WEnemyHealthBar@{WEnemyHealthBar}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{WEnemyHealthBar}{WEnemyHealthBar}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$U\+User\+Widget$>$ A\+Main\+Player\+Controller\+::\+W\+Enemy\+Health\+Bar}
+
+
+
+Definition at line 29 of file Main\+Player\+Controller.\+h.
+
+\mbox{\Hypertarget{class_a_main_player_controller_aa388a67e0d5981b2adb39ef42687395f}\label{class_a_main_player_controller_aa388a67e0d5981b2adb39ef42687395f}} 
+\index{AMainPlayerController@{AMainPlayerController}!WPauseMenu@{WPauseMenu}}
+\index{WPauseMenu@{WPauseMenu}!AMainPlayerController@{AMainPlayerController}}
+\doxysubsubsection{\texorpdfstring{WPauseMenu}{WPauseMenu}}
+{\footnotesize\ttfamily T\+Subclass\+Of$<$U\+User\+Widget$>$ A\+Main\+Player\+Controller\+::\+W\+Pause\+Menu}
+
+
+
+Definition at line 35 of file Main\+Player\+Controller.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+First\+Project/\mbox{\hyperlink{_main_player_controller_8h}{Main\+Player\+Controller.\+h}}\item 
+Source/\+First\+Project/\mbox{\hyperlink{_main_player_controller_8cpp}{Main\+Player\+Controller.\+cpp}}\end{DoxyCompactItemize}
